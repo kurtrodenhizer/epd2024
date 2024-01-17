@@ -1,17 +1,41 @@
 import "./globals.css";
 import Image from "next/image";
+import Clients from "./ui/clients/clients";
+import About from "./ui/about/about";
+import Services from "./ui/services/services";
+import Navbar from "./ui/navbar/navbar";
+import Hero from "./ui/hero/hero";
+
+import Heronew from "./ui/hero/heronew";
+
+import References from "./ui/references/references";
+
+import Altheros from "./ui/hero/altheros/altheros";
+import ServicesNew from "./ui/services/servicesNew";
 
 export default function Home() {
   return (
-    <main>
-      <div>hi how hello this work dd!</div>
+    <>
 
-      <div>how does this work </div>
-      <div className="test">hello</div>
-      <div>thisfsdf is a test</div>
-      <div>test3dsd</div>
+      
+      {/* <Hero></Hero> */}
+      {/* <div className="hero_test">
+        <Hero></Hero>
+        
+      </div> */}
+      <Heronew></Heronew>
 
-      {/* <img class="rounded-full w-96 h-96" src="/whitelogo.png" alt="image description" /> */}
-    </main>
+      {/* <Altheros></Altheros> */}
+
+      <main>
+        <Clients></Clients>
+        <About></About>
+        {/* <Services></Services>  */}
+        <ServicesNew></ServicesNew>
+        {/* <img class="rounded-full w-96 h-96" src="/whitelogo.png" alt="image description" /> */}
+
+        {/* <References></References> */}
+      </main>
+    </>
   );
 }

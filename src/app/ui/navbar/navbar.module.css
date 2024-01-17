@@ -1,3 +1,8 @@
+.navbgContainer {
+  width: 100%;
+  /* background-color: var(--color-royalblue); */
+}
+
 .navContainer {
   width: 90%;
   margin: 0 auto;
@@ -5,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   /* position: sticky; */
-
 
   @media (max-width: 899px) {
     /* justify-content: space-between; */
@@ -19,14 +23,11 @@
   padding: 1.5em 0;
 }
 
-
-
 .navBar {
   /* background-color: pink; */
   display: flex;
 
   @media (max-width: 899px) {
-
     display: none;
     position: absolute;
     top: 8em;
@@ -37,7 +38,7 @@
     background: var(--color-royalblue);
     z-index: 1000;
     height: 85.9vh;
-    overflow:hidden;
+    overflow: hidden;
     /* scroll-behavior: none; */
   }
 
@@ -69,8 +70,6 @@
 
 .nav__ul {
   display: flex;
-  /* color: red; */
-
 
   @media (min-width: 650px) and (max-width: 899px) {
     height: 100vh;
@@ -104,14 +103,15 @@
 .nav__li {
   list-style: none;
   padding: 0.5em 1em;
-  font-family: var(--titillium-font);
+  /* font-size: 10px; */
+  /* font-family: var(--titillium-font); */
 }
 
 .nav__liCtcbtn {
   display: none;
   list-style: none;
   padding: 0.5em 1em;
-  font-family: var(--titillium-font);
+  /* font-family: var(--titillium-font); */
 
   @media (min-width: 650px) and (max-width: 899px) {
     display: block;
@@ -120,13 +120,6 @@
   @media (max-width: 649px) {
     display: block;
   }
-}
-
-.nav__a {
-  text-decoration: none;
-
-  color: white;
-  font-size: 1.25rem;
 }
 
 .nav__toggle {
@@ -164,9 +157,9 @@
 .linkWithBar {
   position: relative;
   text-decoration: none;
-  color: white;
+  /* color: white; */
   padding-bottom: 2px;
-  font-size: 1.25rem;
+  /* font-size: 16px; */
 }
 
 /* Create the bar and position it at the bottom of the link */
@@ -186,12 +179,9 @@
   width: 100%;
 }
 
-
 .dsktopbtn {
-
-  @media(max-width:899px){
+  @media (max-width: 899px) {
     display: none;
-
   }
 }
 
@@ -213,14 +203,12 @@
     /* height: 100vh; */
     height: 100%;
     overflow-y: auto;
- 
 
     &.active {
       display: block;
-      
     }
 
-    .nav__ul{
+    .nav__ul {
       align-items: center;
     }
   }
@@ -230,7 +218,7 @@
   } */
 }
 
-.mobileLinkContainer{
+.mobileLinkContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,7 +227,11 @@
   overflow-y: hidden;
   /* z-index: 10000000; */
   /* height: 100vh; */
-
-
+  font-size: x-small;
 }
 
+.navBtn {
+  @media (max-width: 899px) {
+    margin-right: 3em;
+  }
+}

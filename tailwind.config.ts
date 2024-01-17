@@ -13,8 +13,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        'teal':'#28d1b4',
+      }
     },
+    variants: {
+      extend: {},
+    },
+    // colors:{
+    //   'teal': '#28d1b4',
+    // }
   },
-  plugins: [],
+  plugins: [
+    require('postcss-nesting'),
+    require('tailwindcss'),
+  ],
 }
 export default config

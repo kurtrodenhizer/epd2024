@@ -1,0 +1,130 @@
+/* hero section */
+.pattern {
+    background-image: url("/");
+}
+
+.container{
+    /* background: pink; */
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    height:68vh;
+    display: flex;
+    align-items: center;
+    /* z-index: -100; */
+}
+
+
+.width {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    color: white;
+    position: relative;
+    /* border: 1px solid green; */
+    /* margin-top: -2.5rem; */
+    /* background: orange; */
+  }
+  
+  .hero__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+  }
+  
+  .hero_paddingdiv {
+    display: none;
+  }
+  
+  .hero-test2 {
+    position: relative;
+    /* width: 100%; */
+    width: 650px;
+    height: 650px;
+    height: 0;
+    padding-bottom: 100%;
+  }
+  
+  .hero_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* This makes the container a perfect circle */
+    overflow: hidden;
+  }
+  .hero_test_container{
+      max-height: 500px;
+  
+  }
+
+  
+  
+  
+  .hero__text {
+    padding-bottom: 4em;
+  }
+  
+  .hero__title {
+    font-size: 4rem;
+    margin-bottom: 0.5em;
+    line-height: 100%;
+    font-weight: 700;
+    /* color: red; */
+  }
+  
+  .hero__paragraph {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    max-width: 800px;
+  }
+  
+  @media (min-width: 900px) and (max-width: 1350px) {
+    .hero {
+      margin-top: 0;
+    }
+  
+    .hero__title {
+      font-size: 3rem;
+    }
+  
+    .hero__text {
+      margin-top: 2em;
+    }
+  }
+  
+  @media (max-width: 899px) {
+    .hero {
+      position: relative;
+      /* z-index: -199; */
+      margin-top: 0;
+    }
+  
+    .hero__content {
+      display: block;
+    }
+  
+    .hero_paddingdiv {
+      display: block;
+      padding-bottom: 200px;
+    }
+  
+ 
+  
+  
+  
+    .hero__title {
+      font-size: 2.75rem;
+    }
+  
+    .hero__paragraph {
+      font-size: 1rem;
+    }
+  }
