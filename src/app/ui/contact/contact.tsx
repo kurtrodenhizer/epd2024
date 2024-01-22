@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
           </div>
           <form
-            novalidate=""
+            noValidate
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
           >
             <label className="block">
@@ -74,7 +74,6 @@ const Contact = () => {
             <label className="block">
               <span className="mb-1">Message</span>
               <textarea
-                rows="3"
                 placeholder="Message"
                 className="block w-full rounded-md focus:ring focus:ri focus:ri dark:bg-gray-800"
               ></textarea>
