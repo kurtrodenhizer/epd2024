@@ -34,8 +34,7 @@ const Navigation = () => {
   //     window.removeEventListener("scroll", handleScroll);
   //   };
   // }, []);
-
-  function classNames(...classes) {
+  function classNames(...classes: string[]): string {
     return classes.filter(Boolean).join(" ");
   }
 

@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Image from "next/image";
-import Navbar from "./ui/navbar/navbar";
-import Footer from "./ui/footer/footer"
-import { inter, poppins } from '@/app/ui/fonts';
-import Navnew from "./ui/navbar/navnew";
+
+import {  poppins } from '@/app/ui/fonts';
 import Navigation from "./ui/navbar/navigation";
 import FooterNew from "./ui/footer/footerNew";
 
@@ -21,24 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} `}>
-      {/* <Navbar></Navbar> */}
-      {/* <Navnew></Navnew> */}
+
       <Navigation></Navigation>
-   
-        {/* <header>
 
-        </header> */}
-
-        {/* <div className="test">
         {children}
 
-        </div> */}
-        {children}
-
-
-        {/* <footer>
-        <Footer></Footer>
-        </footer> */}
 
         <FooterNew></FooterNew>
       </body>
