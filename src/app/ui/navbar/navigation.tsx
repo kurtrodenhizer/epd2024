@@ -53,7 +53,8 @@ const Navigation = () => {
           scrollPosition > 0 ||
             pathname === "/about" ||
             pathname === "/services" ||
-            pathname == "/references"
+            pathname == "/references" ||
+            pathname == "/contact"
             ? "shadow bg-white "
             : "shadow-none  text-white",
 
@@ -74,13 +75,13 @@ const Navigation = () => {
                 scrollPosition > 0 ||
                 pathname === "/about" ||
                 pathname === "/services" ||
-                pathname == "/references"
-                  ? "/bluelogo2.png"
+                pathname == "/references" ||
+                pathname == "/contact"
+                  ? "/csbluelogo.png"
                   : "/whitelogo2.png"
               }
-              width={scrollPosition > 0 ? 150 : 200}
-              // width={200}
-
+              // width={scrollPosition > 0 ? 150 : 200}
+              width={200}
               height={100}
               // height={scrollPosition > 0 ? 150 : 200}
               alt="ePD Logo"
@@ -98,15 +99,31 @@ const Navigation = () => {
               References
             </Link>
           </div>
-
-          <button className="hidden md:block bg-blue-500 text-white px-4 py-2 rounded">
+          <Link href="/contact">
+            {/* <button className="hidden md:block bg-blue-500 text-white px-4 py-2 rounded">
             Contact
-          </button>
+          </button> */}
 
-          <div className="md:hidden flex items-center space-x-4">
-            <button className="md:hidden bg-blue-500 text-white px-4 py-2 rounded">
+            <button
+              type="button"
+              className=" hidden md:flex flex-grow justify-center px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+            >
               Contact
             </button>
+          </Link>
+
+          <div className="md:hidden flex items-center space-x-4">
+            <Link href="/contact">
+              {/* <button className="md:hidden bg-blue-500 text-white px-4 py-2 rounded">
+              Contact
+            </button> */}
+              <button
+                type="button"
+                className=" px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full   hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+              >
+                Contact
+              </button>
+            </Link>
 
             <div className="-mr-2 flex md:hidden">
               <button
@@ -176,7 +193,7 @@ const Navigation = () => {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   href="/about"
-                  className="hover:bg-gray-700 hover:text-white  block px-3 py-2 rounded-md text-center font-medium"
+                  className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
                   // className={styles.linkWithBar}
                   onClick={() => setIsOpen(!isOpen)}
                 >
@@ -185,7 +202,7 @@ const Navigation = () => {
 
                 <Link
                   href="/services"
-                  className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-center font-medium"
+                  className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
                   // className={styles.linkWithBar}
                   onClick={() => setIsOpen(!isOpen)}
                 >
@@ -194,7 +211,7 @@ const Navigation = () => {
 
                 <Link
                   href="/references"
-                  className="hover:bg-gray-700 hover:text-white  block px-3 py-2 rounded-md text-center font-medium"
+                  className="hover:bg-gray-700 hover:text-white focus:text-teal  block px-3 py-2 rounded-md text-center font-medium"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   References

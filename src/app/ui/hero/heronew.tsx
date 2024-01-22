@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./heronew.module.css";
 import { lexend, poppins } from "../fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 const Heronew = () => {
   return (
@@ -20,27 +21,37 @@ const Heronew = () => {
             // objectFit: "cover", // cover, contain, none
             zIndex: "-100",
             // objectPosition:"right"
-          
           }}
           className="object-left md:object-center lg:object-right object-cover "
         />
-        <div>
-          <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10">
-            <h1 
-            className={`font-bold text-4xl mb-5 md:text-6xl ${poppins.className} `}>
+        <div className="text-white text-center xl:text-left">
+          {/* <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10"> */}
+          <section className="mx-auto xl:max-w-screen-xl mb-20 lg:px-5   ">
+            <h1
+              className={`font-bold text-4xl mb-5 md:text-6xl ${poppins.className} `}
+            >
               Effective Solutions <br /> Measurable Results
             </h1>
-            <h4 className="font-light mb-3 md:mx-auto lg:ml-0 max-w-3xl md:max-w-xl text-2xl ">
+            {/* <h4 className="font-light mb-3 md:mx-auto lg:ml-0 max-w-3xl md:max-w-xl text-2xl "> */}
+            <h4 className="font-light mb-3 mx-auto xl:mx-0  text-2xl max-w-xl">
               Specializing in Data Management, eLearning, Report Services, and
               File Management
             </h4>
 
-            <button
+            {/* <button
               type="button"
-              className="py-2.5 mt-4 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              className="py-2.5 mt-4  px-5 me-2 mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal hover:bg-gray-100 hover:bg-hoverteal  focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:mt-1"
+
+              className="py-2.5 mt-4  px-5 me-2 mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500"
             >
               Contact Us
-            </button>
+            </button> */}
+
+            <Link href="/contact">
+              <button className="py-2.5 mt-4  px-5 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500">
+                Contact Us
+              </button>
+            </Link>
           </section>
         </div>
       </div>

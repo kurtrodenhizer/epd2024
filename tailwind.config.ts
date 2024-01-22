@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors:{
         'teal':'#28d1b4',
+        'hoverteal':'rgb(64, 163, 166)'
       }
     },
     variants: {

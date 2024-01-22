@@ -12,6 +12,7 @@ import References from "./ui/references/references";
 
 import Altheros from "./ui/hero/altheros/altheros";
 import ServicesNew from "./ui/services/servicesNew";
+import Contact from "./ui/contact/contact";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
         {/* <Services></Services>  */}
         <ServicesNew></ServicesNew>
         {/* <img class="rounded-full w-96 h-96" src="/whitelogo.png" alt="image description" /> */}
-
+      <Contact></Contact>
         {/* <References></References> */}
       </main>
     </>

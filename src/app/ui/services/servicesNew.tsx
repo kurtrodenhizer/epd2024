@@ -113,13 +113,23 @@ const ServicesNew = () => {
             <div
               className="block   p-8  transition hover:border-pink-500/10 hover:shadow-pink-500/10 flex items-center justify-center"
             >
-
+{/* 
               <Link
                 href="/services"
-                className="inline-block rounded bg-teal px-12 py-3 text-sm font-medium text-white transition hover:bg-teal/20 focus:outline-none focus:ring focus:ring-yellow-400"
+                className="inline-block rounded bg-teal px-12 py-3 text-sm font-medium text-white transition hover:bg-hoverteal focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Learn More
-              </Link>
+              </Link> */}
+
+              <Link
+            href="/contact"
+            >
+              <button 
+               className="py-2.5 mt-4 p-8 px-12 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500 focus:ring ">
+              Contact Us
+
+              </button>
+            </Link>
             </div>
           </div>
 
