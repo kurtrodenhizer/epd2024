@@ -182,9 +182,7 @@ const ServicesPage = () => {
               src="https://www.youtube.com/embed/GQllIAJ3aRw?si=5AQL-2TlmGTlvkC4"
               width="100%"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
         </div>
@@ -307,7 +305,7 @@ const ServicesPage = () => {
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
               eProcess Development validates, stores, and protects your
-              company's most valuable information making it easily accessible
+              company &lsquo; s most valuable information making it easily accessible
               and readily available for users.
             </p>
             <div className="flex items-start">
@@ -663,7 +661,7 @@ const ServicesPage = () => {
           </div>
 
           <Image
-              alt="elarning"
+              alt="elearning"
               src="/services/eLearning.jpg"
               width={700}
               height={700}

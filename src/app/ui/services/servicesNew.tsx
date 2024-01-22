@@ -9,7 +9,6 @@ import Link from "next/link";
 const ServicesNew = () => {
   return (
     <>
-
       <section className="bg-gray-900 text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
@@ -17,14 +16,13 @@ const ServicesNew = () => {
 
             <p className="mt-4 text-gray-300">
               Our team has the expertise and experience to create custom
-              solutions that help our clients succeed in today's digital world
+              solutions that help our clients succeed in today&apos;s digital
+              world
             </p>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10"
-            >
+            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 text-teal"
@@ -50,9 +48,7 @@ const ServicesNew = () => {
               </p>
             </div>
 
-            <div
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10"
-            >
+            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaChartBar className="h-10 w-10 text-teal" />
 
               <h2 className="mt-4 text-xl font-bold text-white">
@@ -65,9 +61,7 @@ const ServicesNew = () => {
               </p>
             </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10"
-            >
+            <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaDatabase className="h-10 w-10 text-teal" />
 
               <h2 className="mt-4 text-xl font-bold text-white">
@@ -75,15 +69,13 @@ const ServicesNew = () => {
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                ePD validates, stores, and protects your company's most valuable
-                information, making it easily accessible and readily available
-                for users.
+                ePD validates, stores, and protects your company&apos;s most
+                valuable information, making it easily accessible and readily
+                available for users.
               </p>
             </a>
 
-            <div
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10"
-            >
+            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaFolderOpen className="h-10 w-10 text-teal" />
 
               <h2 className="mt-4 text-xl font-bold text-white">
@@ -96,11 +88,7 @@ const ServicesNew = () => {
               </p>
             </div>
 
-            <div
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10"
-            >
-             
-
+            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaGraduationCap className="h-10 w-10 text-teal" />
               <h2 className="mt-4 text-xl font-bold text-white">eLearning</h2>
 
@@ -110,10 +98,8 @@ const ServicesNew = () => {
               </p>
             </div>
 
-            <div
-              className="block   p-8  transition hover:border-pink-500/10 hover:shadow-pink-500/10 flex items-center justify-center"
-            >
-{/* 
+            <div className="block   p-8  transition hover:border-pink-500/10 hover:shadow-pink-500/10 flex items-center justify-center">
+              {/* 
               <Link
                 href="/services"
                 className="inline-block rounded bg-teal px-12 py-3 text-sm font-medium text-white transition hover:bg-hoverteal focus:outline-none focus:ring focus:ring-yellow-400"
@@ -121,19 +107,13 @@ const ServicesNew = () => {
                 Learn More
               </Link> */}
 
-              <Link
-            href="/contact"
-            >
-              <button 
-               className="py-2.5 mt-4 p-8 px-12 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500 focus:ring ">
-              Contact Us
-
-              </button>
-            </Link>
+              <Link href="/contact">
+                <button className="py-2.5 mt-4 p-8 px-12 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500 focus:ring ">
+                  Contact Us
+                </button>
+              </Link>
             </div>
           </div>
-
-      
         </div>
       </section>
     </>

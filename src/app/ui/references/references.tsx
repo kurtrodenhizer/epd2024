@@ -12,7 +12,7 @@ const References = () => {
               </h1>
 
               <h3 className={`text-xl mb-5 font-light`}>
-                Here's what our clients had to say: 
+                Here&apos;s what our clients had to say:
               </h3>
 
               <div className={`text-center mb-10`}>
@@ -28,13 +28,12 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg  border border-gray-200 p-5 bg-white font-light mb-6 shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10`}
                 >
-              
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1 `}
                       >
-                        "
+                        &quot;
                       </span>
                       Kurt, Rich and the entire ePD team are amazing to work
                       with. Together they have created the most advanced sales
@@ -50,8 +49,8 @@ const References = () => {
                       need.
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1 `}
-                        >
-                        "
+                      >
+                        &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6
@@ -69,13 +68,12 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
-          
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       The patient monitoring simulation products developed by
                       ePD have had a positive impact on our training processes
@@ -88,7 +86,7 @@ const References = () => {
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6
@@ -107,13 +105,12 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
-             
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       ePD has worked with our mental health nonprofit to
                       integrate mood tests and other tools into our website. The
@@ -124,7 +121,7 @@ const References = () => {
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6
@@ -143,13 +140,12 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
-             
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       The number of projects ePD has done for us continues to
                       grow, which should speak for itself. Their responsiveness
@@ -158,7 +154,7 @@ const References = () => {
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6
@@ -179,13 +175,12 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
-          
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 mr-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       Kurt and his team at eProcess Development are a one stop
                       shop for all of your web programs. His ability to quickly
@@ -199,7 +194,7 @@ const References = () => {
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
-                        "
+                        &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6
@@ -218,7 +213,6 @@ const References = () => {
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
-              
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
@@ -250,7 +244,6 @@ const References = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
