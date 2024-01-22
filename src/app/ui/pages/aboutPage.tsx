@@ -21,7 +21,6 @@ const AboutPage = () => {
               //   }}
               className="mx-auto object-cover rounded-full h-40 w-40 "
             />
-            {/* <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-40 w-40 " /> */}
           </div>
         </div>
         <div className="text-center">

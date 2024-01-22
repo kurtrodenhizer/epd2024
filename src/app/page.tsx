@@ -17,8 +17,6 @@ import Contact from "./ui/contact/contact";
 export default function Home() {
   return (
     <>
-
-      
       {/* <Hero></Hero> */}
       {/* <div className="hero_test">
         <Hero></Hero>
@@ -33,8 +31,7 @@ export default function Home() {
         <About></About>
         {/* <Services></Services>  */}
         <ServicesNew></ServicesNew>
-        {/* <img class="rounded-full w-96 h-96" src="/whitelogo.png" alt="image description" /> */}
-      <Contact></Contact>
+        <Contact></Contact>
         {/* <References></References> */}
       </main>
     </>

@@ -17,11 +17,11 @@ const Navigation = () => {
   //   const animatedNavbar = document.getElementById("animated-navbar");
 
   //   const handleScroll = () => {
-  //     // If window.scrollY > 0 (that means the user has scrolled down) we add class .bg-white to the navbar
+  //     // If window.scrollY > 0 (that means the user has scrolled down) we add className .bg-white to the navbar
   //     if (window.scrollY > 0) {
   //       animatedNavbar.classList.add("bg-white");
   //     } else {
-  //       // If window.scrollY = 0 (that means the navbar is at the top of the page) we remove class .bg-white from the navbar
+  //       // If window.scrollY = 0 (that means the navbar is at the top of the page) we remove className .bg-white from the navbar
   //       animatedNavbar.classList.remove("bg-white");
   //     }
   //   };
