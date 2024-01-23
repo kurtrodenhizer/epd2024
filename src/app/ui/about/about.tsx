@@ -27,7 +27,7 @@ const About = () => {
                             // src="/office-long-2.png"
 
               // src="/office-long-1.png"
-              // alt="office content 2"
+              alt="office content 2"
               src="/about/code.jpg"
 
               width={600}
