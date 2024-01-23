@@ -23,7 +23,7 @@ const FooterNew = () => {
               className=""
             >
               <Image
-                src="/bluelogo.png"
+                src="/csbluelogo.png"
                 width={200}
                 height={100}
                 alt="ePD Logo"

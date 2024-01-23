@@ -280,7 +280,9 @@ const ServicesPage = () => {
 
           <Image
               alt="Report Generation"
-              src="/services/report-generation.jpg"
+              // src="/services/report-generation.jpg"
+              src="/services/report-generation2.jpg"
+
               width={600}
               height={600}
               className="mx-auto"
@@ -585,7 +587,9 @@ const ServicesPage = () => {
 
           <Image
               alt="File Management"
-              src="/services/file-management.jpg"
+              // src="/services/file-management.jpg"
+              src="/services/filemanagement2.jpg"
+
               width={600}
               height={600}
               className="mx-auto"

@@ -13,19 +13,25 @@ const About = () => {
           <div className={`grid grid-cols-2 gap-4 mt-8`}>
             <Image
               className={`w-full rounded-lg`}
-              src="/office-long-2.png"
+              // src="/office-long-2.png"
+              src="/about/computer.jpg"
+
               alt="office content 1"
-              width={100}
-              height={100}
+              width={600}
+              height={600}
               quality={100}
             />
 
             <Image
               className={`mt-4 w-full lg:mt-10 rounded-lg`}
-              src="/office-long-1.png"
-              alt="office content 2"
-              width={100}
-              height={100}
+                            // src="/office-long-2.png"
+
+              // src="/office-long-1.png"
+              // alt="office content 2"
+              src="/about/code.jpg"
+
+              width={600}
+              height={600}
               quality={100}
             />
           </div>

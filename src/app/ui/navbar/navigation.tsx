@@ -57,7 +57,8 @@ const Navigation = () => {
             ? "shadow bg-white "
             : "shadow-none  text-white",
 
-          "sticky top-0 z-20 transition-shadow transition-text w-full p-4"
+          "sticky top-0 z-20 transition-shadow transition-text w-full py-4"
+          // "sticky top-0 z-20 transition-shadow transition-text w-full px-4 py-3"
         )}
       >
         <div className="w-11/12 sticky  mx-auto flex justify-between items-center">
@@ -76,18 +77,18 @@ const Navigation = () => {
                 pathname === "/services" ||
                 pathname == "/references" ||
                 pathname == "/contact"
-                  ? "/csbluelogo.png"
-                  : "/whitelogo2.png"
+                  ? "/bluelogocs3.png"
+                  : "/whitelogocs3.png"
               }
               // width={scrollPosition > 0 ? 150 : 200}
-              width={200}
-              height={100}
+              width={175}
+              height={200}
               // height={scrollPosition > 0 ? 150 : 200}
               alt="ePD Logo"
             />
           </Link>
 
-          <div className="hidden md:flex flex-grow justify-center text-sm mr-8 space-x-4 ">
+          <div className="hidden md:flex flex-grow justify-center text-sm  space-x-4 ">
             <Link href="/about" className={styles.linkWithBar}>
               About
             </Link>

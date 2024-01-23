@@ -99,12 +99,12 @@ body::after {
   /* background: linear-gradient(45.32deg,#1b205b,#2e51ed); */
 
   /* background: var(--secondary-glow); */
-  border-radius: 50%;
+  /* border-radius: 50%;
   width: 500px;
   height: 700px;
   filter: blur(90px);
   top: calc(50vh - 50vw / 2);
-  left: calc(50vw - 50vw / 2);
+  left: calc(50vw - 50vw / 2); */
 }
 
 :root {

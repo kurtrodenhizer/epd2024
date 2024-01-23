@@ -24,6 +24,18 @@ const Heronew = () => {
           }}
           className="object-left md:object-center lg:object-right object-cover "
         />
+        {/* <div
+         style={{
+          position: 'fixed',
+          bottom: 190,
+          width: '100%',
+          height: '40%',
+          zIndex: 2,
+          background: 'rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 80%) repeat scroll 0 0',
+        }}
+        >
+
+        </div> */}
         <div className="text-white text-center xl:text-left">
           {/* <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10"> */}
           <section className="mx-auto xl:max-w-screen-xl mb-20 lg:px-5   ">
