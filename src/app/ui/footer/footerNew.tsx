@@ -10,7 +10,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 const FooterNew = () => {
   return (
     <>
-      <div className="border-t mt-auto">
+      <div className="border-t mt-auto bg-white">
         <div
           className="
  px-4 pt-10 w-full mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8   "
@@ -23,7 +23,7 @@ const FooterNew = () => {
               className=""
             >
               <Image
-                src="/csbluelogo.png"
+                src="/bluelogocs3.png"
                 width={200}
                 height={100}
                 alt="ePD Logo"
