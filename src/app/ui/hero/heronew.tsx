@@ -7,7 +7,7 @@ import Link from "next/link";
 const Heronew = () => {
   return (
     <>
-      <div className="h-[68vh] grid grid-cols-1 items-center ">
+      <div className="h-[68vh] grid grid-cols-1 items-center  ">
         <Image
           alt="Mountains"
           src="/ePDBanner_1.jpg"
@@ -22,7 +22,7 @@ const Heronew = () => {
             zIndex: "-100",
             // objectPosition:"right"
           }}
-          className="object-left md:object-center lg:object-right object-cover "
+          className="object-left md:object-center blur-none md:blur-sm xl:blur-none lg:object-right object-cover saturate-150  "
         />
         {/* <div
          style={{
@@ -36,11 +36,11 @@ const Heronew = () => {
         >
 
         </div> */}
-        <div className="text-white text-center xl:text-left">
+        <div className="text-white text-center xl:text-left ">
           {/* <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10"> */}
           <section className="mx-auto xl:max-w-screen-xl mb-20 lg:px-5   ">
             <h1
-              className={`font-bold text-4xl mb-5 md:text-6xl ${poppins.className} `}
+              className={`font-bold text-4xl mb-5 md:text-6xl  ${poppins.className} `}
             >
               Effective Solutions <br /> Measurable Results
             </h1>

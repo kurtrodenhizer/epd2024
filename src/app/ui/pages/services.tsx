@@ -4,7 +4,8 @@ import Image from "next/image";
 const ServicesPage = () => {
   return (
     <>
-      <section className="px-4 py-24 mx-auto lg:max-w-7xl  ">
+      {/* <section className="px-4 py-24 mx-auto lg:max-w-7xl flex flex-col  divide-y divide-gray-400 divide-y lg:divide-y-0  "> */}
+      <section className="px-4 py-24 mx-auto lg:max-w-7xl flex flex-col    ">
         {/* FARIS */}
         <div className="grid items-center place-content-center mx-auto grid-cols-1 mb-24 lg:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           {/* text */}
@@ -77,9 +78,7 @@ const ServicesPage = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p className="text-gray-700">
-                  Allows for presentation sharing
-                </p>
+                <p className="text-gray-700">Allows for presentation sharing</p>
               </div>
               <div className="flex items-start">
                 <svg
@@ -188,7 +187,7 @@ const ServicesPage = () => {
         </div>
 
         {/* Report Generation */}
-        <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+        <div className="  grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
           <div className="order-none md:order-2">
             <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
               Report Generation
@@ -279,14 +278,13 @@ const ServicesPage = () => {
           </div>
 
           <Image
-              alt="Report Generation"
-              // src="/services/report-generation.jpg"
-              src="/services/report-generation2.jpg"
-
-              width={600}
-              height={600}
-              className="mx-auto"
-            />
+            alt="Report Generation"
+            // src="/services/report-generation.jpg"
+            src="/services/report-generation2.jpg"
+            width={600}
+            height={600}
+            className="mx-auto"
+          />
 
           {/* <div className="w-full h-full py-48 bg-gray-200">
             <Image
@@ -306,8 +304,8 @@ const ServicesPage = () => {
               Data Management
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
-              eProcess Development validates, stores, and protects your
-              company &lsquo; s most valuable information making it easily accessible
+              eProcess Development validates, stores, and protects your company
+              &lsquo; s most valuable information making it easily accessible
               and readily available for users.
             </p>
             <div className="flex items-start">
@@ -392,9 +390,7 @@ const ServicesPage = () => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <p className="text-gray-700">
-                Enterprise software management
-              </p>
+              <p className="text-gray-700">Enterprise software management</p>
             </div>
 
             <div className="flex items-start">
@@ -454,9 +450,7 @@ const ServicesPage = () => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <p className="text-gray-700">
-                Price quotation management
-              </p>
+              <p className="text-gray-700">Price quotation management</p>
             </div>
 
             <div className="flex items-start">
@@ -475,15 +469,43 @@ const ServicesPage = () => {
             </div>
           </div>
 
-          <Image
+          {/* <Image
+            alt="Data Management"
+            src="/services/data-management.gif"
+            width={600}
+            height={600}
+            className="mx-auto
+              z-10
+              relative
+              after:w-full
+              after:h-full
+              after:absolute 
+              after:bg-teal
+              after:-top-7
+              after:-left-10
+              after:z-0
+              "
+          /> */}
+
+          <div className="relative z-10">
+            <Image
               alt="Data Management"
               src="/services/data-management.gif"
               width={600}
               height={600}
-              className="mx-auto"
-
+              className="mx-auto 
+              relative
+              z-10
+              h-full
+              w-full
+              "
             />
-
+            {/* <div className="absolute bg-blue-500 w-full h-full top-7 left-7 "></div> */}
+            {/* <span
+              className="block absolute w-full h-full top-[5%] left-[5%]  bg-pink-500 z-0"
+              aria-hidden="true"
+            ></span> */}
+          </div>
 
           {/* <div className="w-full h-full py-48 bg-gray-200 bg-orange relative">
          
@@ -491,113 +513,106 @@ const ServicesPage = () => {
         </div>
 
         {/* File Management   */}
-        <div className="grid flex-col-reverse items-center mt-24 grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-          <div className="order-none md:order-2">
-            <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl">
+        {/* <div className="grid flex-col-reverse items-center mt-24 grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24"> */}
+        {/* <div className="grid flex-col-reverse  items-center mt-24 grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24"> */}
+        <div
+          className="grid items-center place-content-center mx-auto grid-cols-1 mt-24  lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24
+        
+        max-w-2xl
+        
+        md:max-w-3xl
+        lg:max-w-none
+        "
+        >
+          {/* text  */}
+          {/* <div className="order-none lg:order-2 text-center lg:text-left place-items-center "> */}
+          <div className="order-none lg:order-2 text-left place-items-center ">
+            {/* <h2 className="mb-4 text-2xl font-extrabold     "> */}
+            <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-black md:leading-tight  md:text-4xl">
               File Management
             </h2>
-            <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
+            {/* <p className="mb-2 text-base text-center text-gray-600 sm:text-left md:text-lg"> */}
+            <p
+              className="mb-2  text-gray-600 mx-auto   md:text-lg
+            
+            "
+            >
               eProcess Development structures your very important files
               efficiently to allow for quick and easy access to your most
               important documents.
             </p>
 
-            <div className="flex items-start">
-              <svg
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="flex-none w-5 h-5 mt-1 mr-2 text-primary"
+            <div
+              // className="flex flex-col sm:max-w-xl justify-center place-items-center items-center text-left lg:text-left  mx-auto"
+              // className="flex flex-col place-items-center text-left mx-auto max-w-md lg:max-w-lg"
+              className="  text-left  "
+            >
+              <ul
+                className="
+            marker:text-teal 
+            list-disc 
+           
+            ml-10
+            text-gray-700
+            
+            md:text-lg
+            "
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <p className="text-gray-700">Numerous report options</p>
-            </div>
-
-            <div className="flex items-start">
-              <svg
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="flex-none w-5 h-5 mt-1 mr-2 text-primary"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <p className="text-gray-700">
-                Databases that allow for easy record location
-              </p>
-            </div>
-
-            <div className="flex items-start">
-              <svg
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="flex-none w-5 h-5 mt-1 mr-2 text-primary"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <p className="text-gray-700">
-                Social media engagement and analytics
-              </p>
-            </div>
-
-            <div className="flex items-start">
-              <svg
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="flex-none w-5 h-5 mt-1 mr-2 text-primary"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <p className="text-gray-700">
-                Folder, document, and media management of directories and
-                subdirectories
-              </p>
-            </div>
-
-            <div className="flex items-start">
-              <svg
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="flex-none w-5 h-5 mt-1 mr-2 text-primary"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <p className="text-gray-700">File protection</p>
+                <li>Numerous report options</li>
+                <li>Databases that allow for easy record location</li>
+                <li>Social media engagement and analytics</li>
+                <li>
+                  Folder, document, and media management of directories and
+                  subdirectories
+                </li>
+                <li>File Protection</li>
+              </ul>
             </div>
           </div>
 
-          <Image
+          <div className="relative w-11/12 lg:w-full mx-auto z-10">
+            <Image
               alt="File Management"
               // src="/services/file-management.jpg"
               src="/services/filemanagement2.jpg"
-
               width={600}
               height={600}
-              className="mx-auto"
+              className="mx-auto 
+              relative
+              z-10
+              h-full
+              w-full
+              "
             />
 
+            <span
+              className="block absolute w-full h-full top-[5%] left-[5%]  bg-pink-500 z-0 
+              overflow-x-hidden
+              "
+              aria-hidden="true"
+            ></span>
+          </div>
 
+          {/* <div className="text-center mt-10 md:hidden">divider</div> */}
+          {/* <div className="
+          lg:hidden
+          border-t 
+          border-gray-300 
+          mt-10
           
+          "></div> */}
+
         </div>
+
+        <div className="
+          lg:hidden
+          border-dashed
+          border-t 
+          border-gray-300 
+          my-20
+          w-10/12
+          mx-auto
+          "></div>
 
         {/*  eLearning */}
         <div className="grid items-center grid-cols-1 mt-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
@@ -611,6 +626,7 @@ const ServicesPage = () => {
               material and offers flexible learning schedules for your
               employees.
             </p>
+
             <div className="flex items-start">
               <svg
                 viewBox="0 0 20 20"
@@ -665,14 +681,12 @@ const ServicesPage = () => {
           </div>
 
           <Image
-              alt="elearning"
-              src="/services/eLearning.jpg"
-              width={700}
-              height={700}
-              className="mx-auto"
-            />
-
-          
+            alt="elearning"
+            src="/services/eLearning.jpg"
+            width={700}
+            height={700}
+            className="mx-auto"
+          />
         </div>
       </section>
     </>
