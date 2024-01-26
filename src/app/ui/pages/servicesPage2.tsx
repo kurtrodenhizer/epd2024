@@ -123,7 +123,7 @@ const ServicesPage2 = () => {
                   z-10
                   h-full
                   w-full
-                   
+                   rounded
                   "
             />
           ) : (
@@ -139,7 +139,7 @@ const ServicesPage2 = () => {
           )}
 
           <span
-            className="block absolute w-full h-[95%] top-[-4%] left-[-6%]  bg-blue-600 z-0 
+            className="block absolute w-full h-[95%] top-[-4%] left-[-3%] rounded  bg-blue-600 z-0 
                   overflow-x-hidden 
                   "
             aria-hidden="true"
@@ -153,7 +153,7 @@ const ServicesPage2 = () => {
           ></span> */}
 
           <span
-            className="block absolute w-full h-full top-[5%] left-[5%]  bg-blue-100 z-0 drop-shadow-2xl
+            className="block absolute w-full h-full top-[5%] left-[3%] rounded bg-blue-100 z-0 drop-shadow-2xl
                   overflow-x-hidden
                   "
             aria-hidden="true"

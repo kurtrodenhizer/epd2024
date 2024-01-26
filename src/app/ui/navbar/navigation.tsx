@@ -88,14 +88,39 @@ const Navigation = () => {
             />
           </Link>
 
-          <div className="hidden md:flex flex-grow justify-center text-sm  space-x-4 ">
-            <Link href="/about" className={styles.linkWithBar}>
+          <div className="hidden md:flex flex-grow justify-center text-sm  space-x-4 mr-[2.5%]">
+            <Link
+              href="/about"
+              className={` duration-200 transition-all relative ${
+                pathname === "/about"
+                  ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal "
+                  : styles.linkWithBar
+              }`}
+            >
               About
             </Link>
-            <Link href="/services" className={styles.linkWithBar}>
+            <Link
+              href="/services"
+              className={`
+          
+            duration-200 transition-all relative
+            ${
+              pathname === "/services"
+                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal "
+                : styles.linkWithBar
+            }`}
+            >
               Services
             </Link>
-            <Link href="/references" className={styles.linkWithBar}>
+            <Link href="/references" 
+            className={`
+          
+            duration-200 transition-all relative
+            ${
+              pathname === "/references"
+                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal "
+                : styles.linkWithBar
+            }`} >
               References
             </Link>
           </div>

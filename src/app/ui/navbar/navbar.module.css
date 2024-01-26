@@ -162,6 +162,14 @@
   /* font-size: 16px; */
 }
 
+.linkActive{
+  padding-bottom: 2px;
+
+}
+.linkActive{
+  padding-bottom: 2px;
+  
+}
 /* Create the bar and position it at the bottom of the link */
 .linkWithBar::after {
   content: "";

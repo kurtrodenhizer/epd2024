@@ -4,9 +4,9 @@ const References = () => {
   return (
     <>
       <div className={`min-w-screen min-h-screen  flex  justify-center`}>
-        <div className={`w-full   px-5 py-16 md:py-24 text-gray-800 `}>
+        <div className={`w-full   px-5  text-gray-800 `}>
           <div className={`w-full max-w-6xl mx-auto`}>
-            <div className={`text-center max-w-xl mx-auto`}>
+            {/* <div className={`text-center max-w-xl mx-auto`}>
               <h1 className={`text-4xl  font-bold mb-5 text-gray-600`}>
                 Client Testimonials
               </h1>
@@ -16,13 +16,13 @@ const References = () => {
               </h3>
 
               <div className={`text-center mb-10`}>
-                {/* <span className={`inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1`}></span>
+                <span className={`inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1`}></span>
               <span className={`inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1`}></span>
               <span className={`inline-block w-40 h-1 rounded-full bg-indigo-500`}></span>
               <span className={`inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1`}></span>
-              <span className={`inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1`}></span> */}
+              <span className={`inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1`}></span>
               </div>
-            </div>
+            </div> */}
             <div className={`-mx-3 md:flex items-start`}>
               <div className={`px-3 md:w-1/3`}>
                 <div
@@ -75,14 +75,10 @@ const References = () => {
                       >
                         &quot;
                       </span>
-                      The patient monitoring simulation products developed by
-                      ePD have had a positive impact on our training processes
-                      and measurement of clinical competency. We feel the
-                      computer-based replication of the medical equipment has
-                      helped us save time while reducing the cost of training.
-                      The use of the “virtual patient monitors” has allowed us
-                      to train over 60 nurses concurrently without using the
-                      equipment needed for patient care.
+                      The number of projects ePD has done for us continues to
+                      grow, which should speak for itself. Their responsiveness
+                      and technical expertise make working with them a pleasure.
+                      I would highly recommend them.
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
@@ -92,13 +88,17 @@ const References = () => {
                         <h6
                           className={`font-bold text-sm uppercase text-gray-600`}
                         >
-                          Peggy Mathis
+                          Stephen Landry
                         </h6>
-                        <p className="text-xs italic ">Training Manager</p>
+                        <p className="text-xs italic ">
+                          Digital Marketing Manager <br></br>
+                          Draeger Medical
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
+               
               </div>
 
               <div className={`px-3 md:w-1/3`}>
@@ -137,6 +137,7 @@ const References = () => {
                     </div>
                   </div>
                 </div>
+
                 <div
                   className={`w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6`}
                 >
@@ -147,10 +148,14 @@ const References = () => {
                       >
                         &quot;
                       </span>
-                      The number of projects ePD has done for us continues to
-                      grow, which should speak for itself. Their responsiveness
-                      and technical expertise make working with them a pleasure.
-                      I would highly recommend them.
+                      The patient monitoring simulation products developed by
+                      ePD have had a positive impact on our training processes
+                      and measurement of clinical competency. We feel the
+                      computer-based replication of the medical equipment has
+                      helped us save time while reducing the cost of training.
+                      The use of the “virtual patient monitors” has allowed us
+                      to train over 60 nurses concurrently without using the
+                      equipment needed for patient care.
                       <span
                         className={`text-lg leading-none italic font-bold text-gray-400 ml-1`}
                       >
@@ -160,16 +165,14 @@ const References = () => {
                         <h6
                           className={`font-bold text-sm uppercase text-gray-600`}
                         >
-                          Stephen Landry
+                          Peggy Mathis
                         </h6>
-                        <p className="text-xs italic ">
-                          Digital Marketing Manager <br></br>
-                          Draeger Medical
-                        </p>
+                        <p className="text-xs italic ">Training Manager</p>
                       </div>
                     </div>
                   </div>
                 </div>
+               
               </div>
               <div className={`px-3 md:w-1/3`}>
                 <div
