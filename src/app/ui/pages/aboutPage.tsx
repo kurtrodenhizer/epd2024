@@ -11,7 +11,7 @@ const AboutPage = () => {
         <div className="mb-4 mt-2 text-center opacity-90 z-10">
           <div className="relative block">
             <Image
-              alt="Mountains"
+              alt="Kurt Rodenhizer Founder of ePD Headshot"
               src="/Kurt2.png"
               // src="/Kurt.png"
 

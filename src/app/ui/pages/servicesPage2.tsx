@@ -35,6 +35,7 @@ const ServicesPage2 = () => {
       ],
       image: true,
       imageSrc: "/services/report-generation2.jpg",
+      imgAltTag: "Digital Report displayed on tablet device",
     },
     {
       service: "dataManagement",
@@ -52,6 +53,7 @@ const ServicesPage2 = () => {
       ],
       image: true,
       imageSrc: "/services/data-management.gif",
+      imgAltTag: "Screenshots of Data Management examples",
     },
     {
       service: "fileManagement",
@@ -67,6 +69,7 @@ const ServicesPage2 = () => {
       ],
       image: true,
       imageSrc: "/services/filemanagement2.jpg",
+      imgAltTag: "Digital File structure, organization and management visual",
     },
     {
       service: "eLearning",
@@ -82,6 +85,7 @@ const ServicesPage2 = () => {
       ],
       image: true,
       imageSrc: "/services/eLearning.jpg",
+      imgAltTag: "Example of eLearning product simulation",
     },
   ];
 

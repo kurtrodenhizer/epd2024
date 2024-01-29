@@ -9,8 +9,10 @@ const Heronew = () => {
     <>
       <div className="h-[68vh] grid grid-cols-1 items-center  ">
         <Image
-          alt="Mountains"
-          src="/ePDBanner_1.jpg"
+          alt="eProcess Development - Employee at Computer"
+          src="/hero/ePDBanner-og.jpg"
+          // src="/hero/ePDBanner-resized.jpg"
+
           // responsive
           fill
           // placeholder="blur"

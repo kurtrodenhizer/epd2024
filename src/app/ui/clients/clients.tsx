@@ -13,14 +13,14 @@ const Clients = () => {
           <h1 className={`text-xl  text-gray-600 text-center `}>
             Trusted Clients
           </h1>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8 text-gray-500 sm:gap-12 md:gap-16 lg:gap-20 dark:text-gray-400 bg-orange justify-items-center">
             <div className="flex items-center justify-center">
               <Image
                 src="/logos/abiomed.png"
                 width={200}
                 height={100}
-                alt="ePD Logo"
+                alt="Abiomed Logo"
                 className={styles.client__logo}
               />
             </div>
@@ -30,7 +30,7 @@ const Clients = () => {
                 src="/logos/drager.png"
                 width={200}
                 height={100}
-                alt="ePD Logo"
+                alt="Drager Logo"
                 className={styles.client__logo}
               />
             </div>
@@ -40,7 +40,7 @@ const Clients = () => {
                 src="/logos/ss.png"
                 width={200}
                 height={100}
-                alt="ePD Logo"
+                alt="Smart Source Logo"
                 className={styles.client__logo}
               />
             </div>
@@ -50,7 +50,7 @@ const Clients = () => {
                 src="/logos/ffda.png"
                 width={200}
                 height={100}
-                alt="ePD Logo"
+                alt="Families for Depression Awareness Logo"
                 className={`${styles.client__logo} ${styles["client__logo--ff"]}`}
               />
             </div>
