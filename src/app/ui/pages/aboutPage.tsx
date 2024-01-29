@@ -4,15 +4,20 @@ import Image from "next/image";
 const AboutPage = () => {
   return (
     <>
-      <div className="lg:py-32   py-20  md:mx-auto flex flex-col lg:flex-row lg:space-x-10 items-center md:justify-center bg-gray-100 w-full h-screen  md:h-auto">
+      {/* <div className="lg:py-32   py-20  md:mx-auto flex flex-col lg:flex-row lg:space-x-10 items-center md:justify-center bg-gray-100 w-full h-screen  md:h-auto"> */}
+
+      <div className=" pt-5 pb-20 lg:py-28   md:mx-auto flex flex-col lg:flex-row lg:space-x-20 items-center md:justify-center bg-gray-100 w-full  md:h-auto">
         {/* image */}
-        <div className="mb-4 mt-2 text-center opacity-90">
+        <div className="mb-4 mt-2 text-center opacity-90 z-10">
           <div className="relative block">
             <Image
               alt="Mountains"
-              src="/Kurt.png"
+              src="/Kurt2.png"
+              // src="/Kurt.png"
+
               height={150}
               width={150}
+              quality={100}
               //   fill
               //   sizes="(min-width: 808px) 50vw, 100vw"
               //   quality={100}
@@ -20,8 +25,22 @@ const AboutPage = () => {
               //     objectFit: "cover", // cover, contain, none
               //     zIndex: "-100",
               //   }}
-              className="mx-auto object-cover rounded-full h-40 w-40 lg:w-80 lg:h-80 "
+              className="mx-auto object-cover rounded-full h-40 w-40 lg:w-80 lg:h-80 z-10 relative drop-shadow-xl contrast-125 brightness-105 "
             />
+
+            <span
+              className="block absolute w-full h-[95%] left-2 top-[.75rem]  rounded-full  bg-blue-600 z-0 
+                  overflow-x-hidden 
+                  "
+              aria-hidden="true"
+            ></span>
+
+<span
+            className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
+                  overflow-x-hidden z-0
+                  "
+            aria-hidden="true"
+          ></span>
           </div>
           {/* <div className="text-justify">
             <h1 className="text-3xl text-teal text-center">Kurt Rodenhizer</h1>
@@ -40,8 +59,9 @@ const AboutPage = () => {
             Founder/Owner of ePD
           </p>
 
+          <p className="max-w-lg px-3 md:px-0 md:max-w-2xl py-4 font-light text-sm dark:text-gray-400 mx-auto text-gray-600">
 
-          <p className="max-w-sm md:max-w-xl py-4 font-light text-sm dark:text-gray-400 mx-auto">
+          {/* <p className="max-w-sm md:max-w-xl py-4 font-light text-sm dark:text-gray-400 mx-auto"> */}
             Kurt Rodenhizer, MS, MBA, the ePD owner and founder, is a former
             Business Development Program Manager for Dräger Medical Systems and
             Senior Product Manager for Siemens Medical Solutions. He was also an
@@ -59,12 +79,6 @@ const AboutPage = () => {
             Kurt used his background in education (Masters of Education and
             former teacher) to implement numerous effective training programs.
           </p>
-
-
-
-
-
-
         </div>
 
         {/* social icons */}
@@ -130,8 +144,6 @@ const AboutPage = () => {
             </svg>
           </a>
         </div> */}
-
-
       </div>
     </>
   );

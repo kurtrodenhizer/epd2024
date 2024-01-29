@@ -179,7 +179,7 @@ mx-auto
 
   return (
     <>
-      <section className="px-4 py-24 mx-auto lg:max-w-7xl flex flex-col  space-y-16 md:space-y-24 lg:space-y-32">
+      <section className="px-4 pt-10 pb-32 mx-auto lg:max-w-7xl flex flex-col  space-y-16 md:space-y-24 lg:space-y-32">
         {servicesJsx}
 
         {/* file management  */}

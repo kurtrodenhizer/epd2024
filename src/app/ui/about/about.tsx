@@ -6,37 +6,62 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <section className={`bg-teal dark:bg-gray-900`}>
+      <section className={`bg-gray-100`}>
         <div
-          className={`gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6`}
+          className={`gap-8 items-center  px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 py-20 lg:px-6`}
+
+          // className={`gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6`}
         >
-          <div className={`grid grid-cols-2 gap-4 mt-8`}>
-            <Image
-              className={`w-full rounded-lg`}
-              // src="/office-long-2.png"
-              src="/about/computer.jpg"
+          <div className={`grid grid-cols-2 gap-4 relative`}>
+            <div className="relative">
+              <Image
+                className={`w-full rounded-lg relative z-10 shadow-xl  `}
+                // src="/office-long-2.png"
+                src="/about/computer.jpg"
+                alt="office content 1"
+                width={600}
+                height={600}
+                quality={100}
+              />
 
-              alt="office content 1"
-              width={600}
-              height={600}
-              quality={100}
-            />
+              {/* <span
+                className="block absolute w-full h-[95%] top-[-5%] left-[-5%] rounded  bg-blue-600 z-0 
+                  overflow-x-hidden 
+                  "
+                aria-hidden="true"
+              ></span> */}
+              {/* <span
+                className="block absolute w-full h-full top-5 left-5 rounded bg-blue-100 z-0 drop-shadow-2xl
+                  overflow-x-hidden z-0
+                  "
+                aria-hidden="true"
+              ></span> */}
+            </div>
 
-            <Image
-              className={`mt-4 w-full lg:mt-10 rounded-lg`}
-                            // src="/office-long-2.png"
+            <div className="relative">
+              <Image
+                className={`mt-4 w-full lg:mt-10 rounded-lg z-10 relative shadow-xl`}
+                // src="/office-long-2.png"
 
-              // src="/office-long-1.png"
-              alt="office content 2"
-              src="/about/code.jpg"
-
-              width={600}
-              height={600}
-              quality={100}
-            />
+                // src="/office-long-1.png"
+                alt="office content 2"
+                src="/about/code.jpg"
+                width={600}
+                height={600}
+                quality={100}
+              />
+{/* 
+              <span
+                className="block absolute w-full h-full top- left-5 rounded bg-blue-100 z-0 drop-shadow-2xl
+                  overflow-x-hidden z-0
+                  "
+                aria-hidden="true"
+              ></span> */}
+            </div>
           </div>
+
           <div
-            className={`font-light mx-auto max-w-lg md:max-w-2xl text-white sm:text-lg dark:text-gray-400
+            className={`font-light text-justify mx-auto max-w-lg md:max-w-2xl t sm:text-lg 
             
             px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16`}
           >
@@ -45,7 +70,7 @@ const About = () => {
             >
               About Us
             </h2>
-            <p className={`mb-4`}>
+            <p className={` text-gray-600`}>
               We help businesses adapt to the ever-changing digital landscape.
               <br></br>
               <br></br>

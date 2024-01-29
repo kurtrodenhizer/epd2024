@@ -12,8 +12,10 @@ const FooterNew = () => {
     <>
       <div className="border-t mt-auto bg-white">
         <div
+//           className="
+//  px-4 pt-10 w-full mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8   "
           className="
- px-4 pt-10 w-full mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8   "
+ px-4 pt-10 w-11/12 mx-auto    "
         >
           <div className="md:flex-row flex items-center mb-8 flex-col space-y-7 md:space-y-0">
             <Link
@@ -32,19 +34,20 @@ const FooterNew = () => {
             </Link>
 
             {/* <div className=" md:flex  md:flex-grow justify-center text-sm space-x-4 "> */}
-            <div className=" flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-sm">
-              <Link href="/about" className={`${styles2.linkWithBar} block `}>
+            {/* hide??  */}
+            <div className="  flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-gray-500 text-sm ml-5">
+              <Link href="/about" className={` block `}>
                 About
               </Link>
               <Link
                 href="/services"
-                className={`${styles2.linkWithBar} block  `}
+                className={` block  `}
               >
                 Services
               </Link>
               <Link
                 href="/references"
-                className={`${styles2.linkWithBar} block `}
+                className={`block `}
               >
                 References
               </Link>
