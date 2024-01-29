@@ -75,37 +75,37 @@ body {
   /* overflow: hidden; */
 }
 
-body::before,
+/* body::before,
 body::after {
-  /* content: "";
+  content: "";
   position: absolute;
   z-index: -1;
-  opacity: 0.8; */
-}
+  opacity: 0.8;
+} */
 
-body::before {
-  /* background: var(--background-gradient); */
-  /* background: linear-gradient(98.32deg, #1b205b, #2e51ed);
+/* body::before {
+  background: var(--background-gradient);
+  background: linear-gradient(98.32deg, #1b205b, #2e51ed);
   border-radius: 50%;
   width: 50vw;
   height: 50vw;
   margin-left: -200px;
   filter: blur(90px);
   top: calc(50vh - 50vw / 2);
-  left: calc(50vw); */
-}
+  left: calc(50vw);
+} */
 
-body::after {
-  /* background: linear-gradient(45.32deg,#1b205b,#2e51ed); */
+/* body::after {
+  background: linear-gradient(45.32deg,#1b205b,#2e51ed);
 
-  /* background: var(--secondary-glow); */
-  /* border-radius: 50%;
+  background: var(--secondary-glow);
+  border-radius: 50%;
   width: 500px;
   height: 700px;
   filter: blur(90px);
   top: calc(50vh - 50vw / 2);
-  left: calc(50vw - 50vw / 2); */
-}
+  left: calc(50vw - 50vw / 2);
+} */
 
 :root {
   /* colors */
@@ -215,7 +215,4 @@ footer::before {
   position: absolute;
   top: 0%;
   z-index: -100;
-}
-
-button {
 }

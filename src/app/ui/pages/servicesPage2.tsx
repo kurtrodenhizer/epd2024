@@ -119,7 +119,7 @@ const ServicesPage2 = () => {
           {service.image ? (
             <Image
               alt="File Management"
-              src={service.imageSrc}
+              src={service.imageSrc!}
               width={600}
               height={600}
               className="mx-auto 
