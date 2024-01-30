@@ -88,7 +88,9 @@ const Navigation = () => {
             />
           </Link>
 
-          <div className="hidden md:flex flex-grow justify-center text-sm  space-x-4 mr-[2.5%]">
+          <div className="hidden   space-between md:flex flex-grow justify-center  text-sm  space-x-4 mr-7 ">
+            {/* <div className="  flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-gray-500 text-sm ml-5"> */}
+
             <Link
               href="/about"
               className={` duration-200 transition-all relative ${
@@ -112,15 +114,17 @@ const Navigation = () => {
             >
               Services
             </Link>
-            <Link href="/references" 
-            className={`
+            <Link
+              href="/references"
+              className={`
           
             duration-200 transition-all relative
             ${
               pathname === "/references"
                 ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal "
                 : styles.linkWithBar
-            }`} >
+            }`}
+            >
               References
             </Link>
           </div>

@@ -32,8 +32,8 @@ const ClientsNew = () => {
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 py-2 ">
-        <div className="flex flex-col items-center overflow-hidden ">
+      <section className="bg-white dark:bg-gray-900 py-2 h-[20vh]  ">
+        <div className="flex flex-col items-center overflow-hidden justify-center ">
           {/* <h1
             className={` text-center text-xl tracking-tight font-bold text-gray-700 mt-3 mb-1 `}
             className={`text-2xl  text-teal text-center justify-self-start py-5`}

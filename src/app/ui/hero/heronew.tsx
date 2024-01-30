@@ -8,7 +8,7 @@ const Heronew = () => {
   return (
     <>
       {/* <div className="h-[68vh] grid grid-cols-1 items-center  "> */}
-      <div className="h-[72vh] grid grid-cols-1 items-center  ">
+      <div className="h-[70vh] grid grid-cols-1 items-center  ">
 
         <Image
           alt="eProcess Development - Employee at Computer"
