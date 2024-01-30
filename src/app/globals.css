@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .paused{
+    animation-play-state: paused;
+  }
+}
+
 /* came w/ next.js  */
 :root {
   --foreground-rgb: 0, 0, 0;

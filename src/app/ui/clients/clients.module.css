@@ -63,3 +63,36 @@
       }
     
   }
+
+
+
+  .logoSlider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    animation: slide 10s linear infinite;
+    }
+    
+    .logo {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    }
+    
+    .logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    }
+    
+    @keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+    }
+    
