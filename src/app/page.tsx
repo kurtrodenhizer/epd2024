@@ -19,7 +19,7 @@ export default function Home() {
         
         <ClientsNew></ClientsNew>
         {/* <CompanySlider></CompanySlider> */}
-        <Clients></Clients>
+        {/* <Clients></Clients> */}
         <About></About>
         <ServicesNew></ServicesNew>
         <Contact></Contact>
