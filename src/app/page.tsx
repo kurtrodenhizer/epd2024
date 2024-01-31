@@ -7,7 +7,6 @@ import Heronew from "./ui/hero/heronew";
 import ServicesNew from "./ui/services/servicesNew";
 import Contact from "./ui/contact/contact";
 
-import { CompanySlider } from "./ui/clients/CompanySlider";
 import ClientsNew from "./ui/clients/ClientsNew";
 
 export default function Home() {
