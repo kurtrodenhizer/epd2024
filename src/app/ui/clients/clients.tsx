@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./clients.module.css";
 import Image from "next/image";
 
-import { CompanySlider } from "./CompanySlider";
 
 const Clients = () => {
   return (
