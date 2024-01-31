@@ -16,12 +16,13 @@ const ClientsNew = () => {
   const slidingLogos = logos.map((logo, index) => (
     <>
       {/* <div key={index}>hello {logo.company}</div> */}
-      <div className="flex items-start justify-center max-w-none grayscale hover:grayscale-0">
+      <div className="flex items-start justify-center  grayscale hover:grayscale-0">
         <Image
           src={logo.logo}
-          width={175}
+          width={200}
           height={150}
           // layout="responsive"
+          // fill
           alt="Abiomed Logo"
           className="max-w-none object-contain"
           style={{ aspectRatio: "3/2" }}
@@ -32,7 +33,7 @@ const ClientsNew = () => {
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 py-2 h-[20vh]  ">
+      <section className="bg-white dark:bg-gray-900 py-2   ">
         <div className="flex flex-col items-center overflow-hidden justify-center ">
           {/* <h1
             className={` text-center text-xl tracking-tight font-bold text-gray-700 mt-3 mb-1 `}
