@@ -28,7 +28,7 @@ const ClientsNew = () => {
       </div> */}
 
       <div
-        className=" w-40 h-[80%] mx-auto items-start justify-center  grayscale hover:grayscale-0 relative "
+        className=" w-40 h-[70%] mx-auto items-start justify-center  grayscale hover:grayscale-0 relative "
         //  className="flex-1 items-start justify-center grayscale hover:grayscale-0 relative"
       >
         <Image
@@ -50,7 +50,7 @@ const ClientsNew = () => {
   return (
     <>
       <section className="bg-white dark:bg-gray-900 py-2 h-[20vh]  ">
-        <div className=" flex pt-1 space-y-1 flex-col justify-center items-center overflow-hidden justify-center  h-full ">
+        <div className=" flex pt-1 flex-col justify-center items-center overflow-hidden justify-center  h-full ">
           {/* <h1
             className={` text-center text-xl tracking-tight font-bold text-gray-700 mt-3 mb-1 `}
             className={`text-2xl  text-teal text-center justify-self-start py-5`}
@@ -66,14 +66,14 @@ const ClientsNew = () => {
             <span className="pl-6">Trusted Clients</span>
           </span> */}
 
-          <h1 className=" py-2 text-sm lg:text-md font-bold tracking-wide text-center text-gray-800 uppercase">
+          <h1 className="  text-sm lg:text-md font-bold tracking-wide text-center text-gray-800 uppercase">
             Our Trusted clients
           </h1>
           {/* <span
             className={`inline-block w-32 h-[2px] rounded-full bg-teal `}
           ></span> */}
 
-          <div className="flex  h-[70%] w-full overflow-hidden group space-x-32  ">
+          <div className="flex  h-[65%] w-full overflow-hidden group space-x-32  ">
             <div className="flex  items-center  space-x-32 animate-loop-scroll group-hover:paused">
               {slidingLogos}
             </div>
