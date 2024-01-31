@@ -95,7 +95,7 @@ const Navigation = () => {
               href="/about"
               className={` duration-200 transition-all relative ${
                 pathname === "/about"
-                  ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:duration-200"
+                  ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
                   : styles.linkWithBar
               }`}
             >
@@ -108,7 +108,7 @@ const Navigation = () => {
             duration-200 transition-all relative
             ${
               pathname === "/services"
-                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:duration-200"
+                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
                 : styles.linkWithBar
             }`}
             >
@@ -121,7 +121,7 @@ const Navigation = () => {
             duration-200 transition-all relative
             ${
               pathname === "/references"
-                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:duration-200"
+                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
                 : styles.linkWithBar
             }`}
             >
