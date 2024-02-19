@@ -9,6 +9,9 @@ import Contact from "./ui/contact/contact";
 
 import ClientsNew from "./ui/clients/ClientsNew";
 
+import About2 from "./ui/about/about2";
+import { About3 } from "./ui/about/about3";
+
 export default function Home() {
   return (
     <>
@@ -19,7 +22,9 @@ export default function Home() {
         <ClientsNew></ClientsNew>
         {/* <CompanySlider></CompanySlider> */}
         {/* <Clients></Clients> */}
-        <About></About>
+        {/* <About></About> */}
+        {/* <About2></About2> */}
+        <About3></About3>
         <ServicesNew></ServicesNew>
         <Contact></Contact>
       </main>

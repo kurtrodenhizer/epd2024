@@ -57,7 +57,7 @@ const Navigation = () => {
             ? "shadow bg-white "
             : "shadow-none  text-white",
 
-          "sticky top-0 z-20 transition-shadow transition-text w-full py-4"
+          "sticky top-0 z-50 transition-shadow transition-text w-full py-4"
           // "sticky top-0 z-20 transition-shadow transition-text w-full px-4 py-3"
         )}
       >
