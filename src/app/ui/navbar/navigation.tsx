@@ -61,7 +61,9 @@ const Navigation = () => {
           // "sticky top-0 z-20 transition-shadow transition-text w-full px-4 py-3"
         )}
       >
-        <div className="w-11/12 sticky  mx-auto flex justify-between items-center">
+        <div className="w-11/12  sticky  mx-auto flex justify-around items-center">
+        {/* <div className="w-full  sticky   flex justify-around items-center"> */}
+
           <Link
             href="/"
             // onClick={() => setIsOpen(isOpen === false)}

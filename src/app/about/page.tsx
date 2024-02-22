@@ -9,6 +9,8 @@ import Header from "../ui/header/header";
 import { About3 } from "../ui/about/about3";
 import AboutPage2 from "../ui/pages/aboutPage2";
 import ClientsNew from "../ui/clients/ClientsNew";
+import ContacCta from "../ui/contact/contacCta";
+
 export default function Page() {
   return (
     <>
@@ -18,7 +20,7 @@ export default function Page() {
     {/* <AboutPage></AboutPage> */}
     <AboutPage2></AboutPage2>
     {/* <ClientsNew></ClientsNew> */}
-
+    
     </>
   );
 }

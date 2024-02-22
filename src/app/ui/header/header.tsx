@@ -27,6 +27,12 @@ const Header = () => {
       paragraph: "Here's what our clients had to say:",
       link: "/references",
     },
+    {
+      page: "contact",
+      title: "Contact",
+      paragraph: "Here's what our clients had to say:",
+      link: "/contact",
+    },
   ];
 
   const content = headerData

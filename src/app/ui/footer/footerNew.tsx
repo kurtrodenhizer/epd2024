@@ -12,8 +12,7 @@ const FooterNew = () => {
     <>
       <div className="border-t mt-auto bg-white">
         <div
-//           className="
-//  px-4 pt-10 w-full mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8   "
+   
           className="
  px-4 pt-10 w-11/12 mx-auto    "
         >
@@ -29,26 +28,17 @@ const FooterNew = () => {
                 width={200}
                 height={100}
                 alt="ePD Logo"
-                // className={styles.logo}
               />
             </Link>
 
-            {/* <div className=" md:flex  md:flex-grow justify-center text-sm space-x-4 "> */}
-            {/* hide??  */}
             <div className="  flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-gray-500 text-sm ml-5">
               <Link href="/about" className={` block `}>
                 About
               </Link>
-              <Link
-                href="/services"
-                className={` block  `}
-              >
+              <Link href="/services" className={` block  `}>
                 Services
               </Link>
-              <Link
-                href="/references"
-                className={`block `}
-              >
+              <Link href="/references" className={`block `}>
                 References
               </Link>
             </div>

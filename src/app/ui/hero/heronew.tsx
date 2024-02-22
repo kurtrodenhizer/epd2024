@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./heronew.module.css";
-import {  poppins } from "../fonts";
+import { poppins } from "../fonts";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,6 @@ const Heronew = () => {
     <>
       {/* <div className="h-[68vh] grid grid-cols-1 items-center  "> */}
       <div className="h-[70vh] grid grid-cols-1 items-center  ">
-
         <Image
           alt="eProcess Development - Employee at Computer"
           src="/hero/ePDBanner-og.jpg"
@@ -42,9 +41,9 @@ const Heronew = () => {
         </div> */}
         <div className="text-white text-center xl:text-left ">
           {/* <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10"> */}
-          <section className="mx-auto xl:max-w-screen-xl mb-20 lg:px-5   ">
+          <section className="mx-auto xl:max-w-screen-2xl mb-20 lg:px-5   ">
             <h1
-              className={`font-bold text-4xl mb-5 md:text-6xl  ${poppins.className} `}
+              className={`font-bold text-4xl mb-5 md:text-6xl 2xl:text-7xl  ${poppins.className} `}
             >
               Effective Solutions <br /> Measurable Results
             </h1>

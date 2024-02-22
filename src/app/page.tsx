@@ -12,6 +12,8 @@ import ClientsNew from "./ui/clients/ClientsNew";
 import About2 from "./ui/about/about2";
 import { About3 } from "./ui/about/about3";
 import Contact2 from "./ui/contact/contact2";
+import ContacCta from "./ui/contact/contacCta";
+import ContactNew from "./ui/contact/contactNew";
 
 export default function Home() {
   return (
@@ -29,7 +31,9 @@ export default function Home() {
         <ServicesNew></ServicesNew>
         {/* <Contact></Contact> */}
 
-        <Contact2></Contact2>
+        {/* <Contact2></Contact2> */}
+        <ContacCta></ContacCta>
+        {/* <ContactNew></ContactNew> */}
       </main>
     </>
   );

@@ -601,10 +601,10 @@ const ServicesPage = () => {
           mt-10
           
           "></div> */}
-
         </div>
 
-        <div className="
+        <div
+          className="
           lg:hidden
           border-dashed
           border-t 
@@ -612,7 +612,8 @@ const ServicesPage = () => {
           my-20
           w-10/12
           mx-auto
-          "></div>
+          "
+        ></div>
 
         {/*  eLearning */}
         <div className="grid items-center grid-cols-1 mt-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">

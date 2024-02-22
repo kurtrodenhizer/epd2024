@@ -19,11 +19,7 @@ const About2 = () => {
                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                 alt=""
               /> */}
-              <img
-                className="object-cover object-center w-full lg:w-[42rem] rounded-lg h-100"
-                src="/about/deposit1.jpg"
-                alt=""
-              />
+        
               <div className="mt-8 lg:px-10 lg:mt-0">
                 <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
                   About Us

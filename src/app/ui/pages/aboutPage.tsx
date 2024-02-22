@@ -88,9 +88,7 @@ const AboutPage = () => {
             Our team
           </h1>
           <p className="max-w-2xl text-center dark:text-gray-400">
-            At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur
-            quam natus quis nihil quod, hic explicabo doloribus magnam neque,
-            exercitationem eius 
+            This is a test
           </p>
 
 
@@ -150,7 +148,7 @@ const AboutPage = () => {
               Kurt used his background in education (Masters of Education and
               former teacher) to implement numerous effective training programs. */}
 
-              Kurt Rodenhizer, MS, MBA, is the founder and owner of eProcess Development (ePD). With a rich background in corporate marketing and product management at prominent companies such as Dräger Medical Systems and Siemens Medical Solutions, Kurt brings a wealth of experience to ePD. His expertise includes launching products, conducting market research, and developing marketing strategies. Additionally, Kurt's proficiency in database systems has enabled him to create efficient cost-saving policies and procedures. Leveraging his background in education, including a Masters of Education and experience as a teacher, Kurt has implemented effective training programs within ePD.
+              Kurt Rodenhizer, MS, MBA, is the founder and owner of eProcess Development (ePD). With a rich background in corporate marketing and product management at prominent companies such as Dräger Medical Systems and Siemens Medical Solutions, Kurt brings a wealth of experience to ePD. His expertise includes launching products, conducting market research, and developing marketing strategies. Additionally, Kurt&apos;s proficiency in database systems has enabled him to create efficient cost-saving policies and procedures. Leveraging his background in education, including a Masters of Education and experience as a teacher, Kurt has implemented effective training programs within ePD.
             </p>
           </div>
         </div>

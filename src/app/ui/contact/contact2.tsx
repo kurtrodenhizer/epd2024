@@ -3,7 +3,6 @@
 import { FC } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
-import { usePrettyPrintedState } from "./usePrettyPrintedState";
 
 export type FormData = {
   name: string;
@@ -14,7 +13,7 @@ export type FormData = {
 const Contact2: FC = () => {
   const { register, handleSubmit } = useForm<FormData>();
 
-  function onSubmit(data: FormData, e) {
+  function onSubmit(data: FormData, e:any) {
     e.target.reset(); // reset after form submit
 
     sendEmail(data);

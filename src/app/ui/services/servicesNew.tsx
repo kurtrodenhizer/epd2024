@@ -9,7 +9,7 @@ import Link from "next/link";
 const ServicesNew = () => {
   return (
     <>
-      <section className="bg-gray-900 text-white">
+      <section className="bg-gray-900 text-white lg:py-10">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
             <h2 className="text-3xl font-bold sm:text-4xl">Services</h2>
@@ -107,9 +107,9 @@ const ServicesNew = () => {
                 Learn More
               </Link> */}
 
-              <Link href="/contact">
+              <Link href="/services">
                 <button className="py-2.5 mt-4 p-8 px-12 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500 focus:ring ">
-                  Contact Us
+                  Learn More
                 </button>
               </Link>
             </div>
