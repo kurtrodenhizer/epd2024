@@ -1,28 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./footer.module.css";
 import Link from "next/link";
-import styles2 from "../navbar/navbar.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 
-const FooterNew = () => {
+const Footer = () => {
   return (
     <>
       <div className="border-t mt-auto bg-white">
-        <div
-          className="
- px-4 pt-10 w-11/12 mx-auto    "
-        >
+        <div className="px-4 pt-10 w-11/12 mx-auto">
           <div className="lg:flex-row justify-between flex items-center mb-8 flex-col space-y-7 lg:space-y-0">
-            <Link
-              className="mr-auto"
-              href="/"
-              aria-label="Go home"
-              title="eProcess logo"
-              className=""
-            >
+            <Link href="/" aria-label="Go home" title="eProcess logo">
               <Image
                 src="/bluelogocs3.png"
                 width={200}
@@ -31,64 +20,28 @@ const FooterNew = () => {
               />
             </Link>
 
-            {/* <div className="  flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-gray-500 text-sm ml-5">
-              <Link href="/about" className={` block `}>
-                About
-              </Link>
-              <Link href="/services" className={` block  `}>
-                Services
-              </Link>
-              <Link href="/references" className={`block `}>
-                References
-              </Link>
-            </div> */}
-
             <div className=" flex space-y-10  lg:space-y-0 lg:space-x-32 xl:space-x-66 2xl:space-x-72 flex-col lg:flex-row  text-center lg:text-left">
-              {/* <div className="      text-gray-500 text-sm ">
-                <Link href="/about" className={` block `}>
-                  About
-                </Link>
-                <Link href="/services" className={` block  `}>
-                  Services
-                </Link>
-                <Link href="/references" className={`block `}>
-                  References
-                </Link>
-              </div> */}
-
-              {/* <div className="col-span-6 text-center md:text-left md:col-span-3">
-				<p className="pb-1 text-lg font-medium">Category</p>
-				<ul>
-					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:dark:text-violet-400">Link</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:dark:text-violet-400">Link</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:dark:text-violet-400">Link</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:dark:text-violet-400">Link</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:dark:text-violet-400">Link</a>
-					</li>
-				</ul>
-			</div> */}
-
               <div className="space-y-2  text-xs  flex-col justify-center content-center items-center mt-0 ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Explore
                 </p>
-                <Link href="/about" className={` block `}>
+                <Link
+                  href="/about"
+                  className={` block transition-colors duration-300  hover:text-teal `}
+                >
                   About
                 </Link>
-                <Link href="/services" className={` block  `}>
+                <Link
+                  href="/services"
+                  className={` block transition-colors duration-300  hover:text-teal `}
+                >
                   Services
                 </Link>
 
-                <Link href="/references" className={`block `}>
+                <Link
+                  href="/references"
+                  className={`block transition-colors duration-300  hover:text-teal`}
+                >
                   References
                 </Link>
               </div>
@@ -97,14 +50,23 @@ const FooterNew = () => {
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Company
                 </p>
-                <Link href="/about" className={` block `}>
+                <Link
+                  href="/contact"
+                  className={` block  transition-colors duration-300  hover:text-teal`}
+                >
                   Contact
                 </Link>
-                <Link href="/services" className={` block  `}>
+                <Link
+                  href="#"
+                  className={` block transition-colors duration-300  hover:text-teal  `}
+                >
                   Privacy
                 </Link>
 
-                <Link href="/references" className={`block `}>
+                <Link
+                  href="#"
+                  className={`block transition-colors duration-300  hover:text-teal`}
+                >
                   Terms
                 </Link>
               </div>
@@ -190,4 +152,4 @@ const FooterNew = () => {
   );
 };
 
-export default FooterNew;
+export default Footer;

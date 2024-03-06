@@ -6,7 +6,7 @@ import { FaFolderOpen } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import Link from "next/link";
 
-const ServicesNew = () => {
+const Services = () => {
   return (
     <>
       <section className="bg-gray-900 text-white lg:py-10">
@@ -120,4 +120,4 @@ const ServicesNew = () => {
   );
 };
 
-export default ServicesNew;
+export default Services;

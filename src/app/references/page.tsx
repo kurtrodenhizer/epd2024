@@ -1,11 +1,11 @@
 import Header from "../ui/header/header"
-import References from "../ui/references/references"
+import ReferencesPage from "../ui/pages/ReferencesPage"
 
 export default function Page() {
     return (
         <>
         <Header />
-        <References />
+        <ReferencesPage></ReferencesPage>
         </>
     )
   }

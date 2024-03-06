@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ServicesPage2 = () => {
+const ServicesPage = () => {
   const servicesData = [
     {
       service: "faris",
@@ -149,13 +149,6 @@ const ServicesPage2 = () => {
             aria-hidden="true"
           ></span>
 
-          {/* <span
-            className="block absolute w-[105%] h-[105%] top-[-2%] left-[-2%]  bg-blue-300 z-0 
-                  overflow-x-hidden
-                  "
-            aria-hidden="true"
-          ></span> */}
-
           <span
             className="block absolute w-full h-full top-[5%] left-[3%] rounded bg-blue-100 z-0 drop-shadow-2xl
                   overflow-x-hidden
@@ -185,82 +178,9 @@ mx-auto
     <>
       <section className="px-4 pt-10 pb-32 mx-auto lg:max-w-7xl flex flex-col  space-y-16 md:space-y-24 lg:space-y-32">
         {servicesJsx}
-
-        {/* file management  */}
-        {/* <div
-          className="grid items-center place-content-center mx-auto grid-cols-1   
-          
-          lg:grid-cols-2 
-          gap-y-10 
-          lg:gap-y-32 
-          gap-x-10 
-          lg:gap-x-24
-        
-        max-w-2xl
-        
-        md:max-w-3xl
-        lg:max-w-none
-        "
-        >
-          <div className="order-none lg:order-2 text-left place-items-center ">
-            <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-black md:leading-tight  md:text-4xl">
-              File Management
-            </h2>
-            <p className="mb-2  text-gray-600 mx-auto  md:text-lg">
-              eProcess Development structures your very important files
-              efficiently to allow for quick and easy access to your most
-              important documents.
-            </p>
-
-            <div className="  text-left  ">
-              <ul
-                className="
-            marker:text-teal 
-            list-disc 
-           
-            ml-10
-            text-gray-700
-            
-            md:text-lg
-            "
-              >
-                <li>Numerous report options</li>
-                <li>Databases that allow for easy record location</li>
-                <li>Social media engagement and analytics</li>
-                <li>
-                  Folder, document, and media management of directories and
-                  subdirectories
-                </li>
-                <li>File Protection</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="relative w-11/12 lg:w-full mx-auto z-10">
-            <Image
-              alt="File Management"
-              src="/services/filemanagement2.jpg"
-              width={600}
-              height={600}
-              className="mx-auto 
-              relative
-              z-10
-              h-full
-              w-full
-              "
-            />
-
-            <span
-              className="block absolute w-full h-full top-[5%] left-[5%]  bg-pink-500 z-0 
-              overflow-x-hidden
-              "
-              aria-hidden="true"
-            ></span>
-          </div>
-        </div> */}
       </section>
     </>
   );
 };
 
-export default ServicesPage2;
+export default ServicesPage;

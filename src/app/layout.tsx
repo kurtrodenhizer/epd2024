@@ -3,8 +3,7 @@ import "./globals.css";
 
 import { poppins } from "@/app/ui/fonts";
 import Navigation from "./ui/navbar/navigation";
-import FooterNew from "./ui/footer/footerNew";
-import FooterNew2 from "./ui/footer/footerNew2";
+import Footer from "./ui/footer/Footer";
 
 export const metadata: Metadata = {
   title: "eProcess Development",
@@ -21,11 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} `}>
         <Navigation></Navigation>
-
         {children}
-
-        <FooterNew></FooterNew>
-        {/* <FooterNew2></FooterNew2> */}
+        <Footer></Footer>
       </body>
     </html>
   );
