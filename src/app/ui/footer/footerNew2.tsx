@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 
-const FooterNew = () => {
+const FooterNew2 = () => {
   return (
     <>
       <div className="border-t mt-auto bg-white">
@@ -15,7 +15,7 @@ const FooterNew = () => {
           className="
  px-4 pt-10 w-11/12 mx-auto    "
         >
-          <div className="lg:flex-row justify-between flex items-center mb-8 flex-col space-y-7 lg:space-y-0">
+          <div className="md:flex-row justify-between flex items-center mb-8 flex-col space-y-7 md:space-y-0">
             <Link
               className="mr-auto"
               href="/"
@@ -43,7 +43,7 @@ const FooterNew = () => {
               </Link>
             </div> */}
 
-            <div className=" flex space-y-10  lg:space-y-0 lg:space-x-32 xl:space-x-66 2xl:space-x-72 flex-col lg:flex-row  text-center lg:text-left">
+            <div className=" flex space-x-20 ">
               {/* <div className="      text-gray-500 text-sm ">
                 <Link href="/about" className={` block `}>
                   About
@@ -77,43 +77,36 @@ const FooterNew = () => {
 				</ul>
 			</div> */}
 
-              <div className="space-y-2  text-xs  flex-col justify-center content-center items-center mt-0 ">
+              <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Explore
                 </p>
-                <Link href="/about" className={` block `}>
-                  About
-                </Link>
-                <Link href="/services" className={` block  `}>
-                  Services
-                </Link>
-
-                <Link href="/references" className={`block `}>
-                  References
-                </Link>
+                <div className="flex md:justify-start justify-center">
+                  <Link href="/about" className={` block `}>
+                    About
+                  </Link>
+                </div>
+                <div className="flex md:justify-start justify-center">
+                  <Link href="/services" className={` block  `}>
+                    Services
+                  </Link>
+                </div>
+                <div>
+                  <div className="flex md:justify-start justify-center">
+                    <Link href="/references" className={`block `}>
+                      References
+                    </Link>
+                  </div>
+                </div>
               </div>
 
-              <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
-                <p className="text-base font-bold tracking-wide text-gray-900">
-                  Company
-                </p>
-                <Link href="/about" className={` block `}>
-                  Contact
-                </Link>
-                <Link href="/services" className={` block  `}>
-                  Privacy
-                </Link>
+              
 
-                <Link href="/references" className={`block `}>
-                  Terms
-                </Link>
-              </div>
-
-              <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
+              <div className="space-y-2 text-sm  flex-col justify-center content-center items-center mt-0 ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Kurt Rodenhizer
                 </p>
-                <div className="flex lg:justify-start justify-center">
+                <div className="flex md:justify-start justify-center">
                   <p className="mr-1 text-gray-800">Phone:</p>
                   <Link
                     href="tel:781-910-2898"
@@ -124,7 +117,7 @@ const FooterNew = () => {
                     1-781-910-2898
                   </Link>
                 </div>
-                <div className="flex lg:justify-start justify-center">
+                <div className="flex md:justify-start justify-center">
                   <p className="mr-1 text-gray-800">Email:</p>
 
                   <Link
@@ -137,7 +130,7 @@ const FooterNew = () => {
                   </Link>
                 </div>
                 <div>
-                  <div className="flex lg:justify-start justify-center">
+                  <div className="flex md:justify-start justify-center">
                     <p className="mr-1 text-gray-800">Location:</p>
                     <p className="mr-1 text-gray-800 transition-colors duration-300 hover:text-teal">
                       Beverly, MA 01915
@@ -148,7 +141,23 @@ const FooterNew = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center sm:justify-between pt-5 pb-5 border-t flex-col sm:flex-row">
+          <div className="flex flex-col items-center  sm:justify-between pt-5 pb-5 border-t flex-col space-y-8">
+           
+          <Link
+              className="mr-auto"
+              href="/"
+              aria-label="Go home"
+              title="eProcess logo"
+              className=""
+            >
+              <Image
+                src="/bluelogocs3.png"
+                width={150}
+                height={100}
+                alt="ePD Logo"
+              />
+              </Link>
+           
             <p className="text-sm text-gray-600">
               © Copyright 2024. All rights reserved.
             </p>
@@ -190,4 +199,4 @@ const FooterNew = () => {
   );
 };
 
-export default FooterNew;
+export default FooterNew2;

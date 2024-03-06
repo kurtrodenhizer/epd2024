@@ -117,7 +117,7 @@ const AboutPage2 = () => {
         {/* team photos */}
         {/* <div className="flex flex-row flex-wrap justify-between 2xl:max-w-6xl mx-auto "> */}
 
-        <div className="w-full bg-white relative pt-16 pb-16  ">
+        <div className="w-full bg-white relative pt-16 pb-14  ">
           <div>
             <h1 className="text-4xl font-bold leading text-center sm:text-5xl mb-4">
               Meet the Team

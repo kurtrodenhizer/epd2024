@@ -41,9 +41,9 @@ const Heronew = () => {
         </div> */}
         <div className="text-white text-center xl:text-left ">
           {/* <section className="text-center w-10/12 lg:text-left text-white mx-auto mb-10"> */}
-          <section className="mx-auto xl:max-w-screen-2xl mb-20 lg:px-5   ">
+          <section className="mx-auto xl:max-w-screen-2xl mb-20 lg:px-5 lg:pl-16    ">
             <h1
-              className={`font-bold text-4xl mb-5 md:text-6xl 2xl:text-7xl  ${poppins.className} `}
+              className={`font-bold text-4xl mb-5 md:text-6xl  2xl:text-7xl ${poppins.className} `}
             >
               Effective Solutions <br /> Measurable Results
             </h1>
