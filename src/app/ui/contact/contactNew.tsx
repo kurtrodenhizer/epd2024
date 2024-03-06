@@ -20,7 +20,7 @@ const ContactNew: FC = () => {
     sendEmail(data);
   }
   return (
-    <section className="md:pt-32  bg-gray-100 z-10 h-[70vh] w-full   ">
+    <section className="md:py-24  lg:h-[65vh]  bg-gray-100 z-10 min-h-[maxContent] w-full   ">
       {/* // <section className=" bg-gray-100 z-10 h-[70vh] w-full bg-red-500 m-none p-none grid grid-cols-1 justify-center items-stretch  "> */}
       {/* <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x"> */}
 
