@@ -1,6 +1,5 @@
-// import { FormData } from "../ui/contact/contact2";
 
-import { FormData } from "../ui/contact/contactNew";
+import { FormData } from "../ui/pages/ContactPage";
 
 export function sendEmail(data: FormData) {
   const apiEndpoint = "/api/email";

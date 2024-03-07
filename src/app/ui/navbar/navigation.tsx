@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
@@ -13,27 +13,6 @@ import { useScrollPosition } from "@/app/hooks/hooks";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // useEffect(() => {
-  //   const animatedNavbar = document.getElementById("animated-navbar");
-
-  //   const handleScroll = () => {
-  //     // If window.scrollY > 0 (that means the user has scrolled down) we add className .bg-white to the navbar
-  //     if (window.scrollY > 0) {
-  //       animatedNavbar.classList.add("bg-white");
-  //     } else {
-  //       // If window.scrollY = 0 (that means the navbar is at the top of the page) we remove className .bg-white from the navbar
-  //       animatedNavbar.classList.remove("bg-white");
-  //     }
-  //   };
-
-  //   // Add scroll event listener
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   // Cleanup the event listener on component unmount
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
   function classNames(...classes: string[]): string {
     return classes.filter(Boolean).join(" ");
   }
@@ -44,10 +23,6 @@ const Navigation = () => {
   return (
     <>
       <nav
-        // id="animated-navbar"
-        // className="z-10 fixed top-0 flex-no-wrap flex w-full items-center justify-between py-2 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4"
-
-        // className="p-4 sticky top-0 w-full shadow-md "
         className={classNames(
           scrollPosition > 0 ||
             pathname === "/about" ||
@@ -59,23 +34,11 @@ const Navigation = () => {
             : "shadow-none  text-white",
 
           "sticky top-0 z-50 transition-shadow transition-text w-full py-4"
-          // "sticky top-0 z-20 transition-shadow transition-text w-full px-4 py-3"
         )}
       >
-        {/* <div className=" w-11/12  sticky  mx-auto flex justify-around items-center"> */}
         <div className=" 2xl:w-11/12 px-6 sticky  mx-auto flex justify-between items-center">
-
-          {/* <div className="w-full  sticky   flex justify-around items-center"> */}
-
-          <Link
-            href="/"
-            // onClick={() => setIsOpen(isOpen === false)}
-          >
+          <Link href="/">
             <Image
-              // src="/whitelogo.png"
-              // src="/bluelogo.png"
-              // scrollPosition > 0 || pathname === "/about" || pathname === "/services" || pathname == "/references" ? "shadow bg-white " : "shadow-none  text-white",
-
               src={
                 scrollPosition > 0 ||
                 pathname === "/about" ||
@@ -86,17 +49,13 @@ const Navigation = () => {
                   ? "/bluelogocs3.png"
                   : "/whitelogocs3.png"
               }
-              // width={scrollPosition > 0 ? 150 : 200}
               width={175}
               height={200}
-              // height={scrollPosition > 0 ? 150 : 200}
               alt="ePD Logo"
             />
           </Link>
 
           <div className="hidden   space-between md:flex flex-grow justify-center  text-sm  space-x-4 mr-7 ">
-            {/* <div className="  flex flex-col text-center md:flex-row md:space-x-4 md:flex-grow justify-center text-gray-500 text-sm ml-5"> */}
-
             <Link
               href="/about"
               className={` duration-200 transition-all relative ${
@@ -135,8 +94,6 @@ const Navigation = () => {
             </Link>
           </div>
           <Link href="/contact">
-       
-
             <button
               type="button"
               className=" hidden md:flex flex-grow justify-center px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
@@ -146,16 +103,6 @@ const Navigation = () => {
           </Link>
 
           <div className="md:hidden flex items-center space-x-4">
-            {/* <Link href="/contact">
-        
-              <button
-                type="button"
-                className=" px-4 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full   hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
-              >
-                Contact
-              </button>
-            </Link> */}
-
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -213,19 +160,11 @@ const Navigation = () => {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div
-              className="md:hidden"
-              id="mobile-menu"
-              // className={classNames(
-              //   scrollPosition > 0 ? "shadow bg-white " : "shadow-none  text-white",
-              //   "sticky top-0 z-20 transition-shadow transition-text w-full p-4"
-              // )}
-            >
+            <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   href="/about"
                   className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
-                  // className={styles.linkWithBar}
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   About
@@ -234,7 +173,6 @@ const Navigation = () => {
                 <Link
                   href="/services"
                   className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
-                  // className={styles.linkWithBar}
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Services
@@ -248,15 +186,11 @@ const Navigation = () => {
                   References
                 </Link>
 
-                <Link 
-                href="/contact" 
-                className="mx-auto block flex"
-                onClick={() => setIsOpen(!isOpen)}
-
+                <Link
+                  href="/contact"
+                  className="mx-auto block flex"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  {/* <button className="md:hidden bg-blue-500 text-white px-4 py-2 rounded">
-              Contact
-            </button> */}
                   <button
                     type="button"
                     className=" px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full mx-auto  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "

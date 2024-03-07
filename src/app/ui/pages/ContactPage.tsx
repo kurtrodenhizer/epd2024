@@ -21,9 +21,6 @@ const ContactPage: FC = () => {
   }
   return (
     <section className="md:py-24  lg:h-[65vh]  bg-gray-100 z-10 min-h-[maxContent] w-full   ">
-      {/* // <section className=" bg-gray-100 z-10 h-[70vh] w-full bg-red-500 m-none p-none grid grid-cols-1 justify-center items-stretch  "> */}
-      {/* <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x"> */}
-
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x ">
         <div className="py-6 md:py-0 md:px-6">
           <h1 className="text-4xl font-bold">Get in touch</h1>
@@ -101,17 +98,8 @@ const ContactPage: FC = () => {
               {...register("message", { required: true })}
             ></textarea>
           </label>
-          {/* <button
-              type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri dark:bg-violet-400 dark:text-gray-900 focus:ri hover:ri"
-            >
-              Submit
-            </button> */}
 
-          <button
-            // type="button"
-            className=" self-center px-10 py-3 py-2.5 mt-4 px-8 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full border border-blue-400  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
-          >
+          <button className=" self-center px-10 py-3 py-2.5 mt-4 px-8 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full border border-blue-400  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring ">
             Submit
           </button>
         </form>
