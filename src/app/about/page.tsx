@@ -1,11 +1,12 @@
 import Header from "../ui/header/header";
 
-import AboutPage from "../ui/pages/AboutPage";
+import AboutPage1 from "../ui/pages/AboutPage1";
+
 export default function Page() {
   return (
     <>
       <Header></Header>
-      <AboutPage />
+      <AboutPage1></AboutPage1>
     </>
   );
 }
