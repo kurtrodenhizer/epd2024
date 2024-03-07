@@ -5,7 +5,10 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <div className="h-[70vh] grid grid-cols-1 items-center  ">
+      <div
+        className="h-[70vh] grid grid-cols-1 items-center 
+      "
+      >
         <Image
           alt="eProcess Development - Employee at Computer"
           src="/hero/ePDBanner-og.jpg"
@@ -14,7 +17,10 @@ const Hero = () => {
           style={{
             zIndex: "-100",
           }}
-          className="object-left md:object-center blur-none md:blur-sm xl:blur-none lg:object-right object-cover saturate-150  "
+          className="object-left md:m-[-5px] relative md:object-center blur-none md:blur-[2px] xl:blur-none  lg:object-right object-cover saturate-150 
+          
+      
+          "
         />
 
         <div className="text-white text-center xl:text-left ">

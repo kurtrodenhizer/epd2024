@@ -63,7 +63,7 @@ const Navigation = () => {
         )}
       >
         {/* <div className=" w-11/12  sticky  mx-auto flex justify-around items-center"> */}
-        <div className="  px-6 sticky  mx-auto flex justify-between items-center">
+        <div className=" 2xl:w-11/12 px-6 sticky  mx-auto flex justify-between items-center">
 
           {/* <div className="w-full  sticky   flex justify-around items-center"> */}
 
@@ -146,7 +146,7 @@ const Navigation = () => {
           </Link>
 
           <div className="md:hidden flex items-center space-x-4">
-            {/* <Link href="/contact">
+            <Link href="/contact">
         
               <button
                 type="button"
@@ -154,7 +154,7 @@ const Navigation = () => {
               >
                 Contact
               </button>
-            </Link> */}
+            </Link>
 
             <div className="-mr-2 flex md:hidden">
               <button
