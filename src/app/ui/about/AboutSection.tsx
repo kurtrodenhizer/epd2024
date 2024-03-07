@@ -11,7 +11,7 @@ const AboutSection = () => {
           <div className="relative  h-96   lg:h-[120%] lg:w-[110%] lg:order ">
             <Image
               src="/about/deposit1.jpg"
-              alt="office content 1"
+              alt="person working at desk"
               fill
               quality={100}
               className=" rounded-lg shadow-lg object-cover "

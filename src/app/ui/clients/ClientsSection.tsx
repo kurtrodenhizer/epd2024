@@ -18,7 +18,7 @@ const ClientsSection = () => {
         <Image
           src={logo.logo}
           fill
-          alt="Abiomed Logo"
+          alt={`${logo.company} logo`}
           className="
           h-full
           w-full

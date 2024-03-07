@@ -118,7 +118,7 @@ const ServicesPage = () => {
         <div className="relative w-11/12 lg:w-full mx-auto z-10   ">
           {service.image ? (
             <Image
-              alt="File Management"
+              alt={`${service.title} image`}
               src={service.imageSrc!}
               width={600}
               height={600}

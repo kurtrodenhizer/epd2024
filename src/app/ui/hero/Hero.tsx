@@ -10,17 +10,14 @@ const Hero = () => {
       "
       >
         <Image
-          alt="eProcess Development - Employee at Computer"
+          alt="eProcess Development Hero Image - Employee at Computer"
           src="/hero/ePDBanner-og.jpg"
           fill
           quality={100}
           style={{
             zIndex: "-100",
           }}
-          className="object-left md:m-[-5px] relative md:object-center blur-none md:blur-[2px] xl:blur-none  lg:object-right object-cover saturate-150 
-          
-      
-          "
+          className="object-left md:m-[-5px] relative md:object-center blur-none md:blur-[2px] xl:blur-none  lg:object-right object-cover saturate-150 "
         />
 
         <div className="text-white text-center xl:text-left ">

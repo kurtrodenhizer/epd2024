@@ -14,7 +14,7 @@ const AboutPage1 = () => {
                 <div className="flex lg:py-12">
                   <Image
                     src="/statistics1-1.jpg"
-                    alt="office content 1"
+                    alt="employee at work"
                     width={600}
                     height={600}
                     quality={100}
@@ -102,7 +102,7 @@ const AboutPage1 = () => {
             <div className="flex flex-col justify-center m-8 text-center relative mx-auto z-10">
               <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
                 <Image
-                  alt="Kurt Rodenhizer Founder of ePD Headshot"
+                  alt="Rich Lovejoy Headshot"
                   src="/team/rich2.png"
                   fill
                   quality={100}
@@ -125,7 +125,7 @@ const AboutPage1 = () => {
             <div className="flex flex-col justify-center m-8 text-center mx-auto z-10">
               <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
                 <Image
-                  alt="Kurt Rodenhizer Founder of ePD Headshot"
+                  alt="Ian Delairre Headshot"
                   src="/team/ian2.png"
                   fill
                   quality={100}
@@ -146,7 +146,7 @@ const AboutPage1 = () => {
             <div className="flex flex-col justify-center m-8 text-center mx-auto z-10">
               <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
                 <Image
-                  alt="Kurt Rodenhizer Founder of ePD Headshot"
+                  alt="Karl Miller Headshot"
                   src="/team/karl2.png"
                   fill
                   quality={100}
@@ -165,7 +165,7 @@ const AboutPage1 = () => {
             <div className="flex flex-col justify-center m-8 text-center mx-auto z-10 align-self: center">
               <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
                 <Image
-                  alt="Kurt Rodenhizer Founder of ePD Headshot"
+                  alt="Carli Smith Headshot"
                   src="/team/carli2.png"
                   fill
                   quality={100}
