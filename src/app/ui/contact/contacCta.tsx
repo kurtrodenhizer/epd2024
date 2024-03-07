@@ -29,13 +29,12 @@ const ContacCta = () => {
               Tell us about your project and we&apos;ll arrange a free
               consultation call to discuss how we can help.
             </p>
-            <div className="inline-flex w-full mt-6 sm:w-auto z-10">
-              <Link href="/contact">
+          
+            <Link href="/contact" className="inline-flex w-full mt-6 sm:w-auto">
                 <button className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                   Contact Us Today
                 </button>
-              </Link>
-            </div>
+            </Link>
           </div>
         </section>
       </div>
