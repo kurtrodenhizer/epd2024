@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Clients from "../clients/Clients";
+import ClientsSection from "../clients/ClientsSection";
 
 const AboutPage1 = () => {
   return (
@@ -187,7 +187,7 @@ const AboutPage1 = () => {
         </div>
       </section>
 
-      <Clients></Clients>
+      <ClientsSection></ClientsSection>
 
       <div className=" mt-5 relative h-[10rem] z-0 ">
         <svg
