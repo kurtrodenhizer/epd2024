@@ -53,7 +53,8 @@ const Navigation = () => {
             pathname === "/about" ||
             pathname === "/services" ||
             pathname == "/references" ||
-            pathname == "/contact"
+            pathname == "/contact" ||
+            pathname == "/privacy"
             ? "shadow bg-white "
             : "shadow-none  text-white",
 
@@ -61,8 +62,10 @@ const Navigation = () => {
           // "sticky top-0 z-20 transition-shadow transition-text w-full px-4 py-3"
         )}
       >
-        <div className="w-11/12  sticky  mx-auto flex justify-around items-center">
-        {/* <div className="w-full  sticky   flex justify-around items-center"> */}
+        {/* <div className=" w-11/12  sticky  mx-auto flex justify-around items-center"> */}
+        <div className="  px-6 sticky  mx-auto flex justify-between items-center">
+
+          {/* <div className="w-full  sticky   flex justify-around items-center"> */}
 
           <Link
             href="/"
@@ -78,7 +81,8 @@ const Navigation = () => {
                 pathname === "/about" ||
                 pathname === "/services" ||
                 pathname == "/references" ||
-                pathname == "/contact"
+                pathname == "/contact" ||
+                pathname == "/privacy"
                   ? "/bluelogocs3.png"
                   : "/whitelogocs3.png"
               }
@@ -131,9 +135,7 @@ const Navigation = () => {
             </Link>
           </div>
           <Link href="/contact">
-            {/* <button className="hidden md:block bg-blue-500 text-white px-4 py-2 rounded">
-            Contact
-          </button> */}
+       
 
             <button
               type="button"
@@ -144,17 +146,15 @@ const Navigation = () => {
           </Link>
 
           <div className="md:hidden flex items-center space-x-4">
-            <Link href="/contact">
-              {/* <button className="md:hidden bg-blue-500 text-white px-4 py-2 rounded">
-              Contact
-            </button> */}
+            {/* <Link href="/contact">
+        
               <button
                 type="button"
-                className=" px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full   hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+                className=" px-4 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full   hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
               >
                 Contact
               </button>
-            </Link>
+            </Link> */}
 
             <div className="-mr-2 flex md:hidden">
               <button
@@ -246,6 +246,23 @@ const Navigation = () => {
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   References
+                </Link>
+
+                <Link 
+                href="/contact" 
+                className="mx-auto block flex"
+                onClick={() => setIsOpen(!isOpen)}
+
+                >
+                  {/* <button className="md:hidden bg-blue-500 text-white px-4 py-2 rounded">
+              Contact
+            </button> */}
+                  <button
+                    type="button"
+                    className=" px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full mx-auto  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+                  >
+                    Contact
+                  </button>
                 </Link>
               </div>
             </div>

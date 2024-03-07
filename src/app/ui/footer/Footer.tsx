@@ -57,18 +57,13 @@ const Footer = () => {
                   Contact
                 </Link>
                 <Link
-                  href="#"
+                  href="/privacy"
                   className={` block transition-colors duration-300  hover:text-teal  `}
                 >
                   Privacy
                 </Link>
 
-                <Link
-                  href="#"
-                  className={`block transition-colors duration-300  hover:text-teal`}
-                >
-                  Terms
-                </Link>
+             
               </div>
 
               <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
