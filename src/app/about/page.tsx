@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <>
       <Header></Header>
-      <AboutPage></AboutPage>
+      <AboutPage />
     </>
   );
 }
