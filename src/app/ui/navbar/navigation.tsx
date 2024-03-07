@@ -146,7 +146,7 @@ const Navigation = () => {
           </Link>
 
           <div className="md:hidden flex items-center space-x-4">
-            <Link href="/contact">
+            {/* <Link href="/contact">
         
               <button
                 type="button"
@@ -154,7 +154,7 @@ const Navigation = () => {
               >
                 Contact
               </button>
-            </Link>
+            </Link> */}
 
             <div className="-mr-2 flex md:hidden">
               <button
