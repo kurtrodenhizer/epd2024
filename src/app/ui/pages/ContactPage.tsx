@@ -97,7 +97,7 @@ const ContactPage: FC = () => {
             <textarea
               rows={4}
               placeholder="Message"
-              className="block  py-3 px-4 w-full rounded-md focus:ring focus:ri focus:ri dark:bg-gray-800"
+              className="block  py-3 px-4 w-full rounded-md focus:ring focus:ri focus:ri resize-none"
               {...register("message", { required: true })}
             ></textarea>
           </label>
