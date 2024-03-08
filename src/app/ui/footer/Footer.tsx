@@ -20,8 +20,8 @@ const Footer = () => {
               />
             </Link>
 
-            <div className=" xl:space-x-66 flex  flex-col space-y-10 text-center lg:flex-row lg:space-x-32 lg:space-y-0  lg:text-left 2xl:space-x-72">
-              <div className="mt-0  flex-col  content-center items-center justify-center space-y-2 text-xs ">
+            <div className=" xl:space-x-66 flex  flex-col  text-center text-xl lg:flex-row lg:space-x-32  lg:space-y-0 lg:text-left lg:text-xs 2xl:space-x-72 ">
+              <div className=" lg:block mt-0  hidden flex-col  content-center items-center justify-center space-y-5  ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Explore
                 </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="mt-0 flex-col  content-center items-center justify-center space-y-2 text-xs ">
+              <div className="lg:block mt-0  hidden flex-col  content-center items-center justify-center space-y-5  ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Company
                 </p>
@@ -64,8 +64,8 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="mt-0 flex-col  content-center items-center justify-center space-y-2 text-xs ">
-                <p className="text-base font-bold tracking-wide text-gray-900">
+              <div className="mt-0 flex-col  content-center items-center justify-center space-y-7 lg:space-y-5  ">
+                <p className="text-xl font-bold tracking-wide text-gray-900  lg:text-base">
                   Kurt Rodenhizer
                 </p>
                 <div className="flex justify-center lg:justify-start">

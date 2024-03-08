@@ -61,7 +61,7 @@ const Services = () => {
               </p>
             </div>
 
-            <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
+            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaDatabase className="h-10 w-10 text-teal" />
 
               <h2 className="mt-4 text-xl font-bold text-white">
@@ -73,7 +73,7 @@ const Services = () => {
                 valuable information, making it easily accessible and readily
                 available for users.
               </p>
-            </a>
+            </div>
 
             <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal hover:border-opacity-10 hover:shadow-teal/10">
               <FaFolderOpen className="h-10 w-10 text-teal" />
