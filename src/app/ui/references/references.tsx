@@ -6,7 +6,6 @@ const References = () => {
       <div
         // className={`min-w-screen min-h-screen  flex bg-gray-900  justify-center `}
         className={`min-w-screen   flex bg-gray-900  justify-center `}
-
       >
         <div className={`w-full   px-5  text-white `}>
           <div className={`w-full max-w-6xl mx-auto`}>

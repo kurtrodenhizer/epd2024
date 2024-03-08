@@ -1,10 +1,9 @@
-import ContactPage from "../ui/pages/ContactPage"
+import ContactPage from "../ui/pages/ContactPage";
 
 export default function Page() {
-    return (
-        <>
-    
-        <ContactPage></ContactPage>
-        </>
-    )
-  }
+  return (
+    <>
+      <ContactPage></ContactPage>
+    </>
+  );
+}

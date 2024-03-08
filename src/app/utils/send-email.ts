@@ -1,4 +1,3 @@
-
 import { FormData } from "../ui/pages/ContactPage";
 
 export function sendEmail(data: FormData) {

@@ -216,9 +216,9 @@ const AboutPage1 = () => {
               consultation call to discuss how we can help.
             </p>
             <Link href="/contact" className="inline-flex w-full mt-6 sm:w-auto">
-                <button className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                  Contact Us Today
-                </button>
+              <button className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                Contact Us Today
+              </button>
             </Link>
           </div>
         </section>

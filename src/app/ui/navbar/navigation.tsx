@@ -30,13 +30,13 @@ const Navigation = () => {
             pathname == "/references" ||
             pathname == "/contact" ||
             pathname == "/privacy"
-            ? "shadow bg-white "
-            : "shadow-none  text-white",
+            ? "bg-white shadow "
+            : "text-white  shadow-none",
 
-          "sticky top-0 z-50 transition-shadow transition-text w-full py-4"
+          "transition-text sticky top-0 z-50 w-full py-4 transition-shadow",
         )}
       >
-        <div className=" 2xl:w-11/12 px-6 sticky  mx-auto flex justify-between items-center">
+        <div className=" sticky mx-auto flex  items-center justify-between px-6 2xl:w-11/12">
           <Link href="/">
             <Image
               src={
@@ -55,12 +55,12 @@ const Navigation = () => {
             />
           </Link>
 
-          <div className="hidden   space-between md:flex flex-grow justify-center  text-sm  space-x-4 mr-7 ">
+          <div className="space-between   mr-7 hidden flex-grow justify-center  space-x-4  text-sm md:flex ">
             <Link
               href="/about"
-              className={` duration-200 transition-all relative ${
+              className={` relative transition-all duration-200 ${
                 pathname === "/about"
-                  ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
+                  ? "text-teal   after:absolute after:bottom-[-3px] after:left-0 after:h-[2px] after:w-full after:bg-teal after:transition-all after:duration-200"
                   : styles.linkWithBar
               }`}
             >
@@ -70,10 +70,10 @@ const Navigation = () => {
               href="/services"
               className={`
           
-            duration-200 transition-all relative
+            relative transition-all duration-200
             ${
               pathname === "/services"
-                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
+                ? "text-teal   after:absolute after:bottom-[-3px] after:left-0 after:h-[2px] after:w-full after:bg-teal after:transition-all after:duration-200"
                 : styles.linkWithBar
             }`}
             >
@@ -83,10 +83,10 @@ const Navigation = () => {
               href="/references"
               className={`
           
-            duration-200 transition-all relative
+            relative transition-all duration-200
             ${
               pathname === "/references"
-                ? "text-teal   after:bottom-[-3px] after:left-0 after:absolute after:w-full after:h-[2px] after:bg-teal after:transition-all after:duration-200"
+                ? "text-teal   after:absolute after:bottom-[-3px] after:left-0 after:h-[2px] after:w-full after:bg-teal after:transition-all after:duration-200"
                 : styles.linkWithBar
             }`}
             >
@@ -96,18 +96,18 @@ const Navigation = () => {
           <Link href="/contact">
             <button
               type="button"
-              className=" hidden md:flex flex-grow justify-center px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+              className=" text-md hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500  focus:font-semibold focus:outline-none focus:ring md:flex "
             >
               Contact
             </button>
           </Link>
 
-          <div className="md:hidden flex items-center space-x-4">
+          <div className="flex items-center space-x-4 md:hidden">
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -161,10 +161,10 @@ const Navigation = () => {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                 <Link
                   href="/about"
-                  className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
+                  className="block rounded-md px-3 py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   About
@@ -172,7 +172,7 @@ const Navigation = () => {
 
                 <Link
                   href="/services"
-                  className="hover:bg-gray-700 hover:text-white focus:text-teal block px-3 py-2 rounded-md text-center font-medium"
+                  className="block rounded-md px-3 py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Services
@@ -180,7 +180,7 @@ const Navigation = () => {
 
                 <Link
                   href="/references"
-                  className="hover:bg-gray-700 hover:text-white focus:text-teal  block px-3 py-2 rounded-md text-center font-medium"
+                  className="block rounded-md px-3  py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   References
@@ -193,7 +193,7 @@ const Navigation = () => {
                 >
                   <button
                     type="button"
-                    className=" px-6 py-1.5 text-md font-medium text-white focus:outline-none bg-blue-600 rounded-full mx-auto  hover:bg-blue-500 focus:font-semibold focus:border-blue-500 focus:ring "
+                    className=" text-md mx-auto rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
                   >
                     Contact
                   </button>

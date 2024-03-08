@@ -43,20 +43,20 @@ const Header = () => {
             ${section.page === "references" && "bg-gray-900"}
             ${section.page === "about" && "bg-gray-100"}
 
-      w-full  relative py-2`}
+      relative  w-full py-2`}
         >
-          <div className="flex flex-col place-items-center h-full pt-6 justify-start text-center  w-full z-20 mx-auto  sm:mx-auto sm:max-w-lg md:max-w-2xl">
+          <div className="z-20 mx-auto flex h-full w-full flex-col place-items-center  justify-start pt-6 text-center  sm:mx-auto sm:max-w-lg md:max-w-2xl">
             <h1
               key={index}
               className={`${section.page === "references" && "text-white"}
-               text-4xl font-bold mb-3 text-gray-600`}
+               mb-3 text-4xl font-bold text-gray-600`}
             >
               {section.title}
             </h1>
-            <p className="text-gray-500 px-2 md:px-0">{section.paragraph}</p>
+            <p className="px-2 text-gray-500 md:px-0">{section.paragraph}</p>
             <div className={`text-center `}>
               <span
-                className={`inline-block w-40 h-[2.5px] rounded-full bg-teal`}
+                className={`inline-block h-[2.5px] w-40 rounded-full bg-teal`}
               ></span>
             </div>
           </div>

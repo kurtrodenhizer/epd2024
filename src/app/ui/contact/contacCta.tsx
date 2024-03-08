@@ -4,11 +4,11 @@ import React from "react";
 const ContacCta = () => {
   return (
     <>
-      <div className=" relative h-[10rem] z-0  bg-gray-900">
+      <div className=" relative z-0 h-[10rem]  bg-gray-900">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
-          className="absolute  bottom-[-20%] xl:bottom-[-70%]   z-0 "
+          className="absolute  bottom-[-20%] z-0   xl:bottom-[-70%] "
         >
           <path
             fill="#f3f4f5"
@@ -19,21 +19,21 @@ const ContacCta = () => {
       </div>
 
       <div className="  z-0 bg-gray-100 ">
-        <section className=" dark:bg-gray-900  z-10 pb-20 ">
-          <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center z-10 lg:pt-2 ">
-            <h2 className="max-w-2xl mx-auto text-3xl md:text-4xl font-semibold tracking-tight text-gray-800 xl:text-5xl dark:text-white z-10">
+        <section className=" z-10  pb-20 dark:bg-gray-900 ">
+          <div className="container z-10 mx-auto flex flex-col items-center px-4 py-12 text-center lg:pt-2 ">
+            <h2 className="z-10 mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-gray-800 md:text-4xl xl:text-5xl dark:text-white">
               Let&apos;s work{" "}
               <span className="text-blue-500 text-teal">together</span>
             </h2>
-            <p className="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300 z-10">
+            <p className="z-10 mt-6 max-w-4xl text-center text-gray-500 dark:text-gray-300">
               Tell us about your project and we&apos;ll arrange a free
               consultation call to discuss how we can help.
             </p>
-          
-            <Link href="/contact" className="inline-flex w-full mt-6 sm:w-auto">
-                <button className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                  Contact Us Today
-                </button>
+
+            <Link href="/contact" className="mt-6 inline-flex w-full sm:w-auto">
+              <button className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                Contact Us Today
+              </button>
             </Link>
           </div>
         </section>

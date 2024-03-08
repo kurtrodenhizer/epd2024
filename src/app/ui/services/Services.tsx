@@ -98,7 +98,7 @@ const Services = () => {
               </p>
             </div>
 
-            <div className="block   p-8  transition hover:border-pink-500/10 hover:shadow-pink-500/10 flex items-center justify-center">
+            <div className="block   flex  items-center justify-center p-8 transition hover:border-pink-500/10 hover:shadow-pink-500/10">
               {/* 
               <Link
                 href="/services"
@@ -108,7 +108,16 @@ const Services = () => {
               </Link> */}
 
               <Link href="/services">
-                <button className="py-2.5 mt-4 p-8 px-12 me-2  mb-2 text-md font-medium text-white focus:outline-none bg-teal rounded-full border border-teal  hover:bg-hoverteal focus:font-semibold focus:border-blue-500 focus:ring ">
+                {/* <button className="text-md mb-2 me-2 mt-4 rounded-full  border border-teal bg-teal p-8 px-12 py-2.5 font-medium text-white hover:bg-hoverteal  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring ">
+                  Learn More
+                </button> */}
+
+                <button
+                  className="text-md hover:bg-hoverteal2    mb-2   mt-4 rounded-full bg-teal p-8 px-12 py-2.5  py-2.5 font-semibold text-gray-900 
+                  focus:bg-[#ffffff]
+                  focus:outline-none
+              "
+                >
                   Learn More
                 </button>
               </Link>

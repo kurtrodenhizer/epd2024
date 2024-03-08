@@ -3,18 +3,18 @@ import React from "react";
 const ReferencesPage = () => {
   return (
     <>
-      <div className={`min-w-screen   flex bg-gray-900  justify-center `}>
+      <div className={`min-w-screen   flex justify-center  bg-gray-900 `}>
         <div className={`w-full   px-5  text-white `}>
-          <div className={`w-full max-w-6xl mx-auto`}>
-            <div className={`-mx-3 md:flex items-start`}>
+          <div className={`mx-auto w-full max-w-6xl`}>
+            <div className={`-mx-3 items-start md:flex`}>
               <div className={`px-3 md:w-1/3`}>
                 <div
-                  className={`w-full mx-auto rounded-lg  border border-gray-800 p-5  font-light mb-6 shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full  rounded-lg border border-gray-800  p-5 font-light text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1 `}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal `}
                       >
                         &quot;
                       </span>
@@ -31,12 +31,12 @@ const ReferencesPage = () => {
                       and customers to receive and share the information they
                       need.
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1 `}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal `}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Michael M. DeSoto
                         </h6>
                         <p className="text-xs italic ">
@@ -47,12 +47,12 @@ const ReferencesPage = () => {
                   </div>
                 </div>
                 <div
-                  className={`w-full mx-auto rounded-lg  border border-gray-800  p-5  font-light mb-6 shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full  rounded-lg border  border-gray-800  p-5 font-light text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold mr-1 text-teal`}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
@@ -61,12 +61,12 @@ const ReferencesPage = () => {
                       and technical expertise make working with them a pleasure.
                       I would highly recommend them.
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal ml-1`}
+                        className={`ml-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Stephen Landry
                         </h6>
                         <p className="text-xs italic ">
@@ -81,12 +81,12 @@ const ReferencesPage = () => {
 
               <div className={`px-3 md:w-1/3`}>
                 <div
-                  className={`w-full mx-auto rounded-lg  border border-gray-800 p-5 font-light mb-6 shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full  rounded-lg border border-gray-800 p-5 font-light text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1`}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
@@ -97,12 +97,12 @@ const ReferencesPage = () => {
                       to those outside of the web development world. Five out of
                       five stars!
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal ml-1`}
+                        className={`ml-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Valerie Cordero
                         </h6>
                         <p className="text-xs italic ">
@@ -115,13 +115,13 @@ const ReferencesPage = () => {
                 </div>
 
                 <div
-                  className={`w-full mx-auto rounded-lg  border border-gray-800 p-5  font-light mb-6
-                  shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full  rounded-lg border border-gray-800  p-5 font-light
+                  text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1`}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
@@ -134,12 +134,12 @@ const ReferencesPage = () => {
                       to train over 60 nurses concurrently without using the
                       equipment needed for patient care.
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal ml-1`}
+                        className={`ml-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Peggy Mathis
                         </h6>
                         <p className="text-xs italic ">Training Manager</p>
@@ -150,13 +150,13 @@ const ReferencesPage = () => {
               </div>
               <div className={`px-3 md:w-1/3`}>
                 <div
-                  className={`w-full mx-auto rounded-lg border border-gray-800 p-5  font-light mb-6
-                  shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full rounded-lg border border-gray-800  p-5 font-light
+                  text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1`}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
@@ -170,12 +170,12 @@ const ReferencesPage = () => {
                       to detail is spot on. His effort is 100 less things we
                       have to fret over. Two thumbs up.
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal ml-1`}
+                        className={`ml-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Larry Sorgi
                         </h6>
                         <p className="text-xs italic ">
@@ -187,13 +187,13 @@ const ReferencesPage = () => {
                   </div>
                 </div>
                 <div
-                  className={`w-full mx-auto rounded-lg border border-gray-800 p-5  font-light mb-6
-                  shadow-xl transition hover:border-teal  hover:border-opacity-10 hover:shadow-teal/10 text-gray-300`}
+                  className={`mx-auto mb-6 w-full rounded-lg border border-gray-800  p-5 font-light
+                  text-gray-300 shadow-xl transition  hover:border-teal hover:border-opacity-10 hover:shadow-teal/10`}
                 >
                   <div className={`w-full`}>
                     <div className={`text-sm leading-tight`}>
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal mr-1`}
+                        className={`mr-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
@@ -206,12 +206,12 @@ const ReferencesPage = () => {
                       effective conversion of at least 10 hours of work per
                       week.
                       <span
-                        className={`text-lg leading-none italic font-bold text-teal ml-1`}
+                        className={`ml-1 text-lg font-bold italic leading-none text-teal`}
                       >
                         &quot;
                       </span>
                       <div className={`flex-grow pt-4`}>
-                        <h6 className={`font-bold text-sm uppercase text-teal`}>
+                        <h6 className={`text-sm font-bold uppercase text-teal`}>
                           Bill Novicki
                         </h6>
                         <p className="text-xs italic ">Arson and Novicki</p>

@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         teal: "#28d1b4",
         hoverteal: "rgb(64, 163, 166)",
+        hoverteal2: "#8efbf7",
       },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",

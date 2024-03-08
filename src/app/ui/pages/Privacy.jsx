@@ -56,8 +56,8 @@ const Privacy = () => {
 
         <p class="mb-4">
           A cookie is a small file that asks permission to be placed on your
-          computer`&apos;s hard drive. Once you agree, the file is added, and the
-          cookie helps analyze web traffic or lets you know when you visit a
+          computer`&apos;s hard drive. Once you agree, the file is added, and
+          the cookie helps analyze web traffic or lets you know when you visit a
           particular site. Cookies allow web applications to respond to you as
           an individual. The web application can tailor its operations to your
           needs, likes, and dislikes by gathering and remembering information

@@ -14,15 +14,15 @@ const ClientsSection = () => {
 
   const slidingLogos = logos.map((logo, index) => (
     <>
-      <div className=" w-40 h-[70%] mx-auto items-start justify-center  grayscale hover:grayscale-0 relative ">
+      <div className=" relative mx-auto h-[70%] w-40 items-start  justify-center grayscale hover:grayscale-0 ">
         <Image
           src={logo.logo}
           fill
           alt={`${logo.company} logo`}
           className="
+          mx-auto
           h-full
           w-full
-          mx-auto
           object-contain
           "
         />
@@ -32,20 +32,20 @@ const ClientsSection = () => {
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 py-2 h-[20vh]">
-        <div className="flex pt-1 flex-col justify-center items-center overflow-hidden h-full">
-          <h1 className="text-sm lg:text-md font-bold tracking-wide text-center text-gray-800 uppercase">
+      <section className="h-[20vh] bg-white py-2 dark:bg-gray-900">
+        <div className="flex h-full flex-col items-center justify-center overflow-hidden pt-1">
+          <h1 className="lg:text-md text-center text-sm font-bold uppercase tracking-wide text-gray-800">
             Our Trusted clients
           </h1>
 
-          <div className="flex h-[65%] w-full overflow-hidden group space-x-32">
-            <div className="flex items-center space-x-32 animate-loop-scroll group-hover:paused">
+          <div className="group flex h-[65%] w-full space-x-32 overflow-hidden">
+            <div className="group-hover:paused flex animate-loop-scroll items-center space-x-32">
               {slidingLogos}
             </div>
-            <div className="flex items-center space-x-32 animate-loop-scroll group-hover:paused">
+            <div className="group-hover:paused flex animate-loop-scroll items-center space-x-32">
               {slidingLogos}
             </div>
-            <div className="flex items-center space-x-32 animate-loop-scroll group-hover:paused">
+            <div className="group-hover:paused flex animate-loop-scroll items-center space-x-32">
               {slidingLogos}
             </div>
           </div>

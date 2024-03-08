@@ -8,9 +8,9 @@ import { FaSquareFacebook } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <div className="border-t mt-auto bg-white">
-        <div className="px-4 pt-10 w-11/12 mx-auto">
-          <div className="lg:flex-row justify-between flex items-center mb-8 flex-col space-y-7 lg:space-y-0">
+      <div className="mt-auto border-t bg-white">
+        <div className="mx-auto w-11/12 px-4 pt-10">
+          <div className="mb-8 flex flex-col items-center justify-between space-y-7 lg:flex-row lg:space-y-0">
             <Link href="/" aria-label="Go home" title="eProcess logo">
               <Image
                 src="/bluelogocs3.png"
@@ -20,8 +20,8 @@ const Footer = () => {
               />
             </Link>
 
-            <div className=" flex space-y-10  lg:space-y-0 lg:space-x-32 xl:space-x-66 2xl:space-x-72 flex-col lg:flex-row  text-center lg:text-left">
-              <div className="space-y-2  text-xs  flex-col justify-center content-center items-center mt-0 ">
+            <div className=" xl:space-x-66 flex  flex-col space-y-10 text-center lg:flex-row lg:space-x-32 lg:space-y-0  lg:text-left 2xl:space-x-72">
+              <div className="mt-0  flex-col  content-center items-center justify-center space-y-2 text-xs ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Explore
                 </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
+              <div className="mt-0 flex-col  content-center items-center justify-center space-y-2 text-xs ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Company
                 </p>
@@ -62,15 +62,13 @@ const Footer = () => {
                 >
                   Privacy
                 </Link>
-
-             
               </div>
 
-              <div className="space-y-2 text-xs  flex-col justify-center content-center items-center mt-0 ">
+              <div className="mt-0 flex-col  content-center items-center justify-center space-y-2 text-xs ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Kurt Rodenhizer
                 </p>
-                <div className="flex lg:justify-start justify-center">
+                <div className="flex justify-center lg:justify-start">
                   <p className="mr-1 text-gray-800">Phone:</p>
                   <Link
                     href="tel:781-910-2898"
@@ -81,20 +79,20 @@ const Footer = () => {
                     1-781-910-2898
                   </Link>
                 </div>
-                <div className="flex lg:justify-start justify-center">
+                <div className="flex justify-center lg:justify-start">
                   <p className="mr-1 text-gray-800">Email:</p>
 
                   <Link
                     href="mailto:info@lorem.mail"
                     aria-label="Our email"
                     title="Our email"
-                    className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-teal"
+                    className="text-deep-purple-accent-400 transition-colors duration-300 hover:text-teal"
                   >
                     kurt@eprocessdevelopment.com
                   </Link>
                 </div>
                 <div>
-                  <div className="flex lg:justify-start justify-center">
+                  <div className="flex justify-center lg:justify-start">
                     <p className="mr-1 text-gray-800">Location:</p>
                     <p className="mr-1 text-gray-800 transition-colors duration-300 hover:text-teal">
                       Beverly, MA 01915
@@ -105,11 +103,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center sm:justify-between pt-5 pb-5 border-t flex-col sm:flex-row">
+          <div className="flex flex-col items-center justify-center border-t pb-5 pt-5 sm:flex-row sm:justify-between">
             <p className="text-sm text-gray-600">
               © Copyright 2024. All rights reserved.
             </p>
-            <div className="flex justify-center items-center mt-4  space-x-4 sm:mt-0">
+            <div className="mt-4 flex items-center justify-center  space-x-4 sm:mt-0">
               <Link
                 href="https://www.facebook.com/eprocessdevelopment/"
                 target="_blank"

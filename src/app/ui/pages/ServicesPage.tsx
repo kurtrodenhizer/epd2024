@@ -91,23 +91,23 @@ const ServicesPage = () => {
 
   const servicesJsx = servicesData.map((service, index) => (
     <>
-      <div className="grid items-center place-content-center mx-auto grid-cols-1  lg:grid-cols-2  gap-y-10  lg:gap-y-32 gap-x-10 lg:gap-x-24 max-w-2xl md:max-w-3xl lg:max-w-none ">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 place-content-center  items-center  gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 ">
         <div
           className={`
         ${index % 2 === 0 && `lg:order-2`}
-         text-left place-items-center 
+         place-items-center text-left 
        `}
         >
-          <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-black md:leading-tight  md:text-4xl">
+          <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-black md:text-4xl  md:leading-tight">
             {service.title}
           </h2>
 
-          <p className="mb-2  text-gray-600 mx-auto  md:text-lg">
+          <p className="mx-auto  mb-2 text-gray-600  md:text-lg">
             {service.paragraph}
           </p>
 
           <div className="text-left">
-            <ul className=" marker:text-teal list-disc ml-10 text-gray-700 md:text-lg">
+            <ul className=" ml-10 list-disc text-gray-700 marker:text-teal md:text-lg">
               {service.features.map((bullet, index) => (
                 <li key={index}>{bullet}</li>
               ))}
@@ -115,23 +115,23 @@ const ServicesPage = () => {
           </div>
         </div>
 
-        <div className="relative w-11/12 lg:w-full mx-auto z-10   ">
+        <div className="relative z-10 mx-auto w-11/12 lg:w-full   ">
           {service.image ? (
             <Image
               alt={`${service.title} image`}
               src={service.imageSrc!}
               width={600}
               height={600}
-              className="mx-auto 
-                  relative
+              className="relative 
                   z-10
+                  mx-auto
                   h-full
                   w-full
                    rounded
                   "
             />
           ) : (
-            <div className="aspect-video relative z-10">
+            <div className="relative z-10 aspect-video">
               <iframe
                 className=" h-full w-full rounded-lg"
                 src="https://www.youtube.com/embed/GQllIAJ3aRw?si=5AQL-2TlmGTlvkC4"
@@ -143,15 +143,15 @@ const ServicesPage = () => {
           )}
 
           <span
-            className="block absolute w-full h-[95%] top-[-4%] left-[-3%] rounded  bg-blue-600 z-0 
-                  overflow-x-hidden 
+            className="absolute left-[-3%] top-[-4%] z-0 block h-[95%] w-full  overflow-x-hidden rounded 
+                  bg-blue-600 
                   "
             aria-hidden="true"
           ></span>
 
           <span
-            className="block absolute w-full h-full top-[5%] left-[3%] rounded bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden
+            className="absolute left-[3%] top-[5%] z-0 block h-full w-full overflow-x-hidden rounded bg-blue-100
+                  drop-shadow-2xl
                   "
             aria-hidden="true"
           ></span>
@@ -161,13 +161,13 @@ const ServicesPage = () => {
       {index !== servicesData.length - 1 && (
         <div
           className="
-lg:hidden
-border-dashed
-border-t 
-border-gray-300 
-
-w-10/12
 mx-auto
+w-10/12
+border-t 
+border-dashed 
+
+border-gray-300
+lg:hidden
 "
         ></div>
       )}
@@ -176,7 +176,7 @@ mx-auto
 
   return (
     <>
-      <section className="px-4 pt-10 pb-32 mx-auto lg:max-w-7xl flex flex-col  space-y-16 md:space-y-24 lg:space-y-32">
+      <section className="mx-auto flex flex-col space-y-16 px-4 pb-32 pt-10  md:space-y-24 lg:max-w-7xl lg:space-y-32">
         {servicesJsx}
       </section>
     </>
