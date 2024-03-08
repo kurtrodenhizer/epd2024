@@ -41,7 +41,7 @@ const AboutSection = () => {
                   "
                   aria-label="Link to About Page"
                 >
-                  Learn More
+                  Learn More About Us
                 </button>
               </Link>
             </div>

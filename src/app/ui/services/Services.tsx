@@ -119,7 +119,7 @@ const Services = () => {
               "
                   aria-label="Link to Services Page"
                 >
-                  Learn More
+                  Explore Our Services
                 </button>
               </Link>
             </div>
