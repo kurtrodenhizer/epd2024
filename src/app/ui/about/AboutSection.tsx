@@ -32,13 +32,15 @@ const AboutSection = () => {
                 and proven track record, ePD is the ideal partner for businesses
                 looking to thrive in the digital age.
               </p>
-              <Link href="/contact" className="">
+              <Link href="/about" className="">
                 {/* <button className="text-md mb-2  me-2 mt-8  rounded-full border border-teal bg-teal px-5 py-2.5 font-medium text-white hover:bg-hoverteal  focus:border-blue-500 focus:font-semibold focus:outline-none">
                   Learn More
                 </button> */}
                 <button
                   className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 font-semibold  text-white  hover:bg-blue-900 
-              "
+                  "
+                  aria-label="Link to About Page"
+
                 >
                   Learn More
                 </button>

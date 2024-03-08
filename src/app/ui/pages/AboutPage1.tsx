@@ -6,9 +6,9 @@ import Link from "next/link";
 const AboutPage1 = () => {
   return (
     <>
-      <section className=" w-full bg-gray-100     md:h-auto relative mb-5">
-        <div className="w-full  relative z-10">
-          <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-20 sm:p-10  ">
+      <section className=" relative mb-5     w-full bg-gray-100 md:h-auto">
+        <div className="relative  z-10 w-full">
+          <div className="container mx-auto flex flex-col items-center justify-center space-y-20 p-4 sm:p-10  ">
             <div className="flex flex-wrap">
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
                 <div className="flex lg:py-12">
@@ -18,12 +18,12 @@ const AboutPage1 = () => {
                     width={600}
                     height={600}
                     quality={100}
-                    className="w-full rounded-lg shadow-lg dark:shadow-black/20 lg:ml-[50px] z-[20]"
+                    className="z-[20] w-full rounded-lg shadow-lg lg:ml-[50px] dark:shadow-black/20"
                   />
                 </div>
               </div>
-              <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 z-10">
-                <div className="flex h-full bg-blue-600 items-center rounded-lg bg-primary p-6 text-center text-white lg:pl-12 lg:text-left">
+              <div className="z-10 w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                <div className="bg-primary flex h-full items-center rounded-lg bg-blue-600 p-6 text-center text-white lg:pl-12 lg:text-left">
                   <div className="lg:pl-12">
                     <h2 className="mb-6 text-3xl font-bold">WHAT WE DO</h2>
                     <p className="mb-6 pb-2 lg:pb-0">
@@ -66,121 +66,121 @@ const AboutPage1 = () => {
         </div>
 
         {/* team photos */}
-        <div className="w-full bg-white relative pt-16 pb-14  ">
+        <div className="relative w-full bg-white pb-14 pt-16  ">
           <div>
-            <h1 className="text-4xl font-bold leading text-center sm:text-5xl mb-4">
+            <h1 className="leading mb-4 text-center text-4xl font-bold sm:text-5xl">
               Meet the Team
             </h1>
-            <p className="max-w-2xl text-center dark:text-gray-400 mx-auto">
+            <p className="mx-auto max-w-2xl text-center dark:text-gray-400">
               ePD&apos;s dedicated team of experts
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between max-w-7xl mx-auto z-10 pt-4">
-            <div className="flex flex-col justify-center m-8 text-center relative mx-auto z-10">
-              <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
+          <div className="z-10 mx-auto grid max-w-7xl grid-cols-1 justify-between pt-4 md:grid-cols-2 lg:grid-cols-5">
+            <div className="relative z-10 m-8 mx-auto flex flex-col justify-center text-center">
+              <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Kurt Rodenhizer Founder of ePD Headshot"
                   src="/Kurt2.png"
                   fill
                   quality={100}
-                  className="mx-auto object-cover rounded-full absolute drop-shadow-xl contrast-125 brightness-105 z-10 "
+                  className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
                 />
 
                 <span
-                  className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden z-0
+                  className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
+                  bg-blue-100 drop-shadow-2xl
                   "
                   aria-hidden="true"
                 ></span>
               </div>
 
-              <p className="text-xl font-semibold leading">Kurt Rodenhizer</p>
-              <p className="dark:text-gray-400 text-teal">Founder/Owner</p>
+              <p className="leading text-xl font-semibold">Kurt Rodenhizer</p>
+              <p className="text-teal dark:text-gray-400">Founder/Owner</p>
             </div>
 
-            <div className="flex flex-col justify-center m-8 text-center relative mx-auto z-10">
-              <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
+            <div className="relative z-10 m-8 mx-auto flex flex-col justify-center text-center">
+              <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Rich Lovejoy Headshot"
                   src="/team/rich2.png"
                   fill
                   quality={100}
-                  className="mx-auto object-cover rounded-full absolute drop-shadow-xl contrast-125 brightness-105 z-10 "
+                  className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
                 />
 
                 <span
-                  className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden z-0
+                  className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
+                  bg-blue-100 drop-shadow-2xl
                   "
                   aria-hidden="true"
                 ></span>
               </div>
 
-              <p className="text-xl font-semibold leading">Rich Lovejoy</p>
-              <p className="dark:text-gray-400 text-teal">
+              <p className="leading text-xl font-semibold">Rich Lovejoy</p>
+              <p className="text-teal dark:text-gray-400">
                 Software Project Lead
               </p>
             </div>
-            <div className="flex flex-col justify-center m-8 text-center mx-auto z-10">
-              <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
+            <div className="z-10 m-8 mx-auto flex flex-col justify-center text-center">
+              <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Ian Delairre Headshot"
                   src="/team/ian2.png"
                   fill
                   quality={100}
-                  className="mx-auto object-cover rounded-full absolute drop-shadow-xl contrast-125 brightness-105 z-10 "
+                  className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
                 />
 
                 <span
-                  className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden z-0
+                  className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
+                  bg-blue-100 drop-shadow-2xl
                   "
                   aria-hidden="true"
                 ></span>
               </div>
               <p className="text-xl font-semibold ">Ian Delairre</p>
-              <p className="dark:text-gray-400 text-teal">Back-end Developer</p>
+              <p className="text-teal dark:text-gray-400">Back-end Developer</p>
             </div>
 
-            <div className="flex flex-col justify-center m-8 text-center mx-auto z-10">
-              <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
+            <div className="z-10 m-8 mx-auto flex flex-col justify-center text-center">
+              <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Karl Miller Headshot"
                   src="/team/karl2.png"
                   fill
                   quality={100}
-                  className="mx-auto object-cover rounded-full absolute drop-shadow-xl contrast-125 brightness-150 z-10 "
+                  className="absolute z-10 mx-auto rounded-full object-cover brightness-150 contrast-125 drop-shadow-xl "
                 />
                 <span
-                  className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden z-0
+                  className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
+                  bg-blue-100 drop-shadow-2xl
                   "
                   aria-hidden="true"
                 ></span>
               </div>
-              <p className="text-xl font-semibold leading">Karl Miller </p>
-              <p className="dark:text-gray-400 text-teal">Back-end Developer</p>
+              <p className="leading text-xl font-semibold">Karl Miller </p>
+              <p className="text-teal dark:text-gray-400">Back-end Developer</p>
             </div>
-            <div className="flex flex-col justify-center m-8 text-center mx-auto z-10 align-self: center">
-              <div className="relative block mx-auto mb-4 h-[9rem] w-[9rem]">
+            <div className="align-self: center z-10 m-8 mx-auto flex flex-col justify-center text-center">
+              <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Carli Smith Headshot"
                   src="/team/carli2.png"
                   fill
                   quality={100}
-                  className="mx-auto object-cover rounded-full absolute drop-shadow-xl contrast-125 brightness-105 z-10 "
+                  className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
                 />
 
                 <span
-                  className="block absolute w-full h-full top-0 rounded-full bg-blue-100 z-0 drop-shadow-2xl
-                  overflow-x-hidden z-0
+                  className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
+                  bg-blue-100 drop-shadow-2xl
                   "
                   aria-hidden="true"
                 ></span>
               </div>
-              <p className="text-xl font-semibold leading ">Carli Smith</p>
-              <p className="dark:text-gray-400 text-teal">
+              <p className="leading text-xl font-semibold ">Carli Smith</p>
+              <p className="text-teal dark:text-gray-400">
                 Front-end Developer
               </p>
             </div>
@@ -190,11 +190,11 @@ const AboutPage1 = () => {
 
       <ClientsSection></ClientsSection>
 
-      <div className=" mt-5 relative h-[10rem] z-0 ">
+      <div className=" relative z-0 mt-5 h-[10rem] ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
-          className="absolute  bottom-[-20%] xl:bottom-[-70%]   z-0 "
+          className="absolute  bottom-[-20%] z-0   xl:bottom-[-70%] "
         >
           <path
             fill="#f3f4f5"
@@ -205,18 +205,21 @@ const AboutPage1 = () => {
       </div>
 
       <div className="  z-0 bg-gray-100 ">
-        <section className=" dark:bg-gray-900  z-10 pb-20  ">
-          <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center z-10 lg:pt-2 ">
-            <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white z-10">
+        <section className=" z-10  pb-20 dark:bg-gray-900  ">
+          <div className="container z-10 mx-auto flex flex-col items-center px-4 py-12 text-center lg:pt-2 ">
+            <h2 className="z-10 mx-auto max-w-2xl text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
               Let&apos;s Work{" "}
               <span className="text-blue-500 text-teal">together.</span>
             </h2>
-            <p className="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300 z-10">
+            <p className="z-10 mt-6 max-w-4xl text-center text-gray-500 dark:text-gray-300">
               Tell us about your project and we&apos;ll arrange a free
               consultation call to discuss how we can help.
             </p>
-            <Link href="/contact" className="inline-flex w-full mt-6 sm:w-auto">
-              <button className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <Link href="/contact" className="mt-6 inline-flex w-full sm:w-auto">
+              <button
+                aria-label="Link to Contact Page"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+              >
                 Contact Us Today
               </button>
             </Link>

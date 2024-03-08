@@ -27,10 +27,11 @@ const Hero = () => {
             >
               Effective Solutions <br /> Measurable Results
             </h1>
-            <h4 className="mx-auto mb-3 max-w-xl text-2xl  font-light xl:mx-0">
+
+            <p className="mx-auto mb-3 max-w-xl text-2xl font-light xl:mx-0">
               Specializing in Data Management, eLearning, Report Services, and
               File Management
-            </h4>
+            </p>
 
             <Link href="/contact">
               <button
@@ -38,6 +39,7 @@ const Hero = () => {
               focus:bg-[#ffffff]
               focus:outline-none
               "
+                aria-label="Link to Contact Page"
               >
                 Contact Us
               </button>

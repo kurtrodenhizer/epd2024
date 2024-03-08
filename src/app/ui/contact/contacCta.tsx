@@ -22,8 +22,7 @@ const ContacCta = () => {
         <section className=" z-10  pb-20 dark:bg-gray-900 ">
           <div className="container z-10 mx-auto flex flex-col items-center px-4 py-12 text-center lg:pt-2 ">
             <h2 className="z-10 mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-gray-800 md:text-4xl xl:text-5xl dark:text-white">
-              Let&apos;s work{" "}
-              <span className=" text-blue-600">together</span>
+              Let&apos;s work <span className=" text-blue-600">together</span>
             </h2>
             <p className="z-10 mt-6 max-w-4xl text-center text-gray-900 dark:text-gray-300">
               Tell us about your project and we&apos;ll arrange a free
@@ -31,7 +30,10 @@ const ContacCta = () => {
             </p>
 
             <Link href="/contact" className="mt-6 inline-flex w-full sm:w-auto">
-              <button className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+              <button
+                aria-label="Link to Contact Page"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+              >
                 Contact Us Today
               </button>
             </Link>
