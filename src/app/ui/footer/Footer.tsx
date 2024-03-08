@@ -112,6 +112,7 @@ const Footer = () => {
                 href="https://www.facebook.com/eprocessdevelopment/"
                 target="_blank"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal"
+                aria-label="Facebook Link"
               >
                 <FaSquareFacebook />
               </Link>
@@ -120,6 +121,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/eprocess-development"
                 target="_blank"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal"
+                aria-label="LinkedIn Link"
               >
                 <FaLinkedinIn />
               </Link>
@@ -128,15 +130,10 @@ const Footer = () => {
                 href="https://x.com/krodenhizer?s=20"
                 target="_blank"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal"
+                aria-label="Twitter Link"
               >
                 <FaXTwitter />
               </Link>
-
-              <Link
-                href="https://x.com/krodenhizer?s=20"
-                target="_blank"
-                className="text-gray-500 transition-colors duration-300 hover:text-teal"
-              ></Link>
             </div>
           </div>
         </div>

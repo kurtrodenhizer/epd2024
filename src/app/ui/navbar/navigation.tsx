@@ -95,6 +95,7 @@ const Navigation = () => {
           </div>
           <Link href="/contact">
             <button
+              aria-label="Contact"
               type="button"
               className=" text-md hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500  focus:font-semibold focus:outline-none focus:ring md:flex "
             >
@@ -194,6 +195,7 @@ const Navigation = () => {
                   <button
                     type="button"
                     className=" text-md mx-auto rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
+                    aria-label="Contact"
                   >
                     Contact
                   </button>

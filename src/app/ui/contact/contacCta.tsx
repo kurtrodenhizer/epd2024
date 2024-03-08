@@ -23,9 +23,9 @@ const ContacCta = () => {
           <div className="container z-10 mx-auto flex flex-col items-center px-4 py-12 text-center lg:pt-2 ">
             <h2 className="z-10 mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-gray-800 md:text-4xl xl:text-5xl dark:text-white">
               Let&apos;s work{" "}
-              <span className="text-blue-500 text-teal">together</span>
+              <span className=" text-blue-600">together</span>
             </h2>
-            <p className="z-10 mt-6 max-w-4xl text-center text-gray-500 dark:text-gray-300">
+            <p className="z-10 mt-6 max-w-4xl text-center text-gray-900 dark:text-gray-300">
               Tell us about your project and we&apos;ll arrange a free
               consultation call to discuss how we can help.
             </p>
