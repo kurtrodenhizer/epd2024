@@ -93,7 +93,7 @@ const Navigation = () => {
               References
             </Link>
           </div>
-          <Link href="/contact">
+          <Link href="/contact" aria-label="Contact Page">
             <button
               aria-label="Contact"
               type="button"
@@ -191,11 +191,12 @@ const Navigation = () => {
                   href="/contact"
                   className="mx-auto block flex"
                   onClick={() => setIsOpen(!isOpen)}
+                  aria-label="Contact Page"
                 >
                   <button
                     type="button"
                     className=" text-md mx-auto rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
-                    aria-label="Contact"
+                    aria-label="Contact Page"
                   >
                     Contact
                   </button>
