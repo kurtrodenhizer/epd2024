@@ -25,7 +25,7 @@ const AboutSection = () => {
               <p className="mb-8 mt-2 pb-2 text-neutral-500 lg:pb-0 dark:text-neutral-300">
                 We help businesses adapt to the ever-changing digital landscape.
               </p>
-              <p className="mb-0 text-neutral-500 dark:text-neutral-300 mb-3">
+              <p className="mb-0 mb-3 text-neutral-500 dark:text-neutral-300">
                 We specialize in providing cost-effective solutions that help
                 businesses stay ahead of the curve and adapt to the latest
                 digital trends and technologies. With our competitive pricing
@@ -40,7 +40,6 @@ const AboutSection = () => {
                   className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 font-semibold  text-white  hover:bg-blue-900 
                   "
                   aria-label="Link to About Page"
-
                 >
                   Learn More
                 </button>

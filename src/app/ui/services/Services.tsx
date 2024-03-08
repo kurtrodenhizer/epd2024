@@ -117,6 +117,7 @@ const Services = () => {
                   focus:bg-[#ffffff]
                   focus:outline-none
               "
+                  aria-label="Link to Services Page"
                 >
                   Learn More
                 </button>
