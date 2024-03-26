@@ -32,7 +32,7 @@ const ContacCta = () => {
             <Link href="/contact" className="mt-6 inline-flex w-full sm:w-auto">
               <button
                 aria-label="Link to Contact Page"
-                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+                className="inline-flex w-full items-center justify-center font-semibold  rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
                 Contact Us Today
               </button>

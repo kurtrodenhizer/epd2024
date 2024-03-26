@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
 
             <div className=" xl:space-x-66 flex  flex-col  text-center text-xl lg:flex-row lg:space-x-32  lg:space-y-0 lg:text-left lg:text-xs 2xl:space-x-72 ">
-              <div className=" lg:block mt-0  hidden flex-col  content-center items-center justify-center space-y-5  ">
+              <div className=" mt-0 hidden  flex-col content-center  items-center justify-center space-y-5 lg:block  ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Explore
                 </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="lg:block mt-0  hidden flex-col  content-center items-center justify-center space-y-5  ">
+              <div className="mt-0 hidden  flex-col content-center  items-center justify-center space-y-5 lg:block  ">
                 <p className="text-base font-bold tracking-wide text-gray-900">
                   Company
                 </p>
@@ -79,7 +79,7 @@ const Footer = () => {
                     1-781-910-2898
                   </Link>
                 </div>
-                <div className="flex justify-center lg:justify-start">
+                <div className="flex flex-wrap justify-center lg:justify-start">
                   <p className="mr-1 text-gray-800">Email:</p>
 
                   <Link
