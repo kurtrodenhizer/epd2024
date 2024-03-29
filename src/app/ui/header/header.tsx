@@ -10,7 +10,8 @@ const Header = () => {
       page: "about",
       title: "About Us",
       paragraph:
-        "ePd was founded on the basis of modernizing business practices",
+        // "ePd was founded on the basis of modernizing business practices",
+        "Empowering your business with bespoke digital solutions",
       link: "/about",
     },
     {
@@ -49,7 +50,7 @@ const Header = () => {
             <h1
               key={index}
               className={`${section.page === "references" && "text-white"}
-               mb-3 text-4xl font-bold text-gray-600`}
+               mb-3 text-4xl font-bold text-gray-700`}
             >
               {section.title}
             </h1>

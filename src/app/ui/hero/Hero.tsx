@@ -35,7 +35,7 @@ const Hero = () => {
 
             <Link href="/contact">
               <button
-                className="text-md hover:bg-hoverteal2    mb-2   mt-4 rounded-full bg-teal px-5  py-2.5 font-semibold text-gray-900 
+                className="text-md mb-2    mt-4   rounded-full bg-teal px-5 py-2.5  font-semibold text-gray-900 hover:bg-hoverteal2 
               focus:bg-[#ffffff]
               focus:outline-none
               "

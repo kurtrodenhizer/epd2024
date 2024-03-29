@@ -98,7 +98,7 @@ const ServicesPage = () => {
          place-items-center text-left 
        `}
         >
-          <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-black md:text-4xl  md:leading-tight">
+          <h2 className="mb-4 text-2xl font-extrabold tracking-tight  text-gray-700 md:text-4xl  md:leading-tight">
             {service.title}
           </h2>
 
@@ -176,7 +176,7 @@ lg:hidden
 
   return (
     <>
-      <section className="mx-auto flex flex-col space-y-16 px-4 pb-32 pt-10  md:space-y-24 lg:max-w-7xl lg:space-y-32">
+      <section className="mx-auto flex flex-col space-y-16 px-4 pb-32 pt-5 md:space-y-24 lg:max-w-7xl lg:space-y-32 lg:pt-10">
         {servicesJsx}
       </section>
     </>

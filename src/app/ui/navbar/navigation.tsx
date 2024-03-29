@@ -55,7 +55,7 @@ const Navigation = () => {
             />
           </Link>
 
-          <div className="space-between   mr-7 hidden flex-grow justify-center  space-x-4  text-sm md:flex ">
+          <div className="space-between   hidden flex-grow justify-center space-x-4  pr-14 text-sm  md:flex lg:space-x-6 ">
             <Link
               href="/about"
               className={` relative transition-all duration-200 ${
@@ -95,12 +95,15 @@ const Navigation = () => {
           </div>
           <Link href="/contact" aria-label="Contact Page">
             <button
+              onClick={(e) => e.currentTarget.blur()}
               aria-label="Contact"
               type="button"
               // className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 font-semibold  text-white  hover:bg-blue-900"
+              // className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 text-white  duration-300   hover:bg-blue-500 focus:font-semibold focus:font-semibold focus:ring focus:ring-blue-300 focus:ring-opacity-80  md:flex
+              // "
+              // className=" text-md   hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500 focus:font-semibold  focus:font-semibold  focus:ring-blue-300  focus:ring-opacity-80 md:flex "
 
-              className=" font-semibold  text-md hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500  focus:font-semibold  md:flex "
-
+              className=" text-md mx-auto hidden  rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500  focus:font-semibold focus:outline-none focus:ring md:flex "
               // className=" text-md mb-2 me-2 mt-4 self-center rounded-full border  border-blue-400 bg-blue-600 px-10 px-8 py-2.5 py-3 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
             >
               Contact
@@ -200,7 +203,8 @@ const Navigation = () => {
                   <button
                     type="button"
                     className=" text-md mx-auto rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
-                    aria-label="Contact Page"
+                    // className=" text-md   hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500 focus:font-semibold  focus:font-semibold  focus:ring-blue-300  focus:ring-opacity-80 md:flex "
+                    // aria-label="Contact Page"
                   >
                     Contact
                   </button>

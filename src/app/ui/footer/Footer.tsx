@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="mt-auto border-t bg-white">
         <div className="mx-auto w-11/12 px-4 pt-10">
-          <div className="mb-8 flex flex-col items-center justify-between space-y-7 lg:flex-row lg:space-y-0">
+          <div className="mb-8 flex flex-col items-center justify-between space-y-7 text-gray-700 lg:flex-row lg:space-y-0">
             <Link href="/" aria-label="Go home" title="eProcess logo">
               <Image
                 src="/bluelogocs3.png"
@@ -21,8 +21,8 @@ const Footer = () => {
             </Link>
 
             <div className=" xl:space-x-66 flex  flex-col  text-center text-xl lg:flex-row lg:space-x-32  lg:space-y-0 lg:text-left lg:text-xs 2xl:space-x-72 ">
-              <div className=" mt-0 hidden  flex-col content-center  items-center justify-center space-y-5 lg:block  ">
-                <p className="text-base font-bold tracking-wide text-gray-900">
+              <div className=" mt-0 hidden  flex-col content-center   items-center justify-center space-y-5 lg:block  ">
+                <p className="text-base font-bold tracking-wide  ">
                   Explore
                 </p>
                 <Link
@@ -46,8 +46,8 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div className="mt-0 hidden  flex-col content-center  items-center justify-center space-y-5 lg:block  ">
-                <p className="text-base font-bold tracking-wide text-gray-900">
+              <div className="mt-0 hidden  flex-col   items-center justify-center space-y-5 lg:block  ">
+                <p className="text-base font-bold tracking-wide ">
                   Company
                 </p>
                 <Link
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
 
               <div className="mt-0 flex-col  content-center items-center justify-center space-y-7 lg:space-y-5  ">
-                <p className="text-xl font-bold tracking-wide text-gray-900  lg:text-base">
+                <p className="text-xl font-bold tracking-wide   lg:text-base">
                   Kurt Rodenhizer
                 </p>
                 <div className="flex justify-center lg:justify-start">

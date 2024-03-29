@@ -39,14 +39,25 @@ const AboutPage1 = () => {
                       satisfaction, eProcess Development is your trusted partner
                       for driving business growth and efficiency.
                     </p>
-                    <button
-                      type="button"
-                      className="rounded-full border-2 border-neutral-50 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
-                      data-te-ripple-init
-                      data-te-ripple-color="light"
+                    <Link
+                      href="/contact"
+                      className="mt-2 inline-flex w-full sm:w-auto"
                     >
-                      Contact Us Today
-                    </button>
+                      {/* <button
+                aria-label="Link to Contact Page"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+              >
+                Contact Us
+              </button> */}
+                      <button
+                        type="button"
+                        className="rounded-full  border-2 border-neutral-50 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:font-semibold focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+                        data-te-ripple-init
+                        data-te-ripple-color="light"
+                      >
+                        Contact Us Today
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -66,7 +77,7 @@ const AboutPage1 = () => {
         </div>
 
         {/* team photos */}
-        <div className="relative w-full bg-white pb-14 pt-16  ">
+        <div className="relative w-full bg-white pb-14 pt-16 text-gray-700   ">
           <div>
             <h1 className="leading mb-4 text-center text-4xl font-bold sm:text-5xl">
               Meet the Team
@@ -218,9 +229,9 @@ const AboutPage1 = () => {
             <Link href="/contact" className="mt-6 inline-flex w-full sm:w-auto">
               <button
                 aria-label="Link to Contact Page"
-                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:font-semibold focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
-                Contact Us Today
+                Contact Us
               </button>
             </Link>
           </div>

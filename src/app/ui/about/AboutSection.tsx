@@ -37,8 +37,10 @@ const AboutSection = () => {
                   Learn More
                 </button> */}
                 <button
-                  className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 font-semibold  text-white  hover:bg-blue-900 
+                  className="text-md mb-2 mt-4 rounded-full bg-blue-600  px-5   py-2.5 text-white  duration-300   hover:bg-blue-500 focus:font-semibold focus:font-semibold focus:ring focus:ring-blue-300 focus:ring-opacity-80
                   "
+                  // className="inline-flex w-full items-center justify-center rounded-lg  bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:font-semibold focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+
                   aria-label="Link to About Page"
                 >
                   Learn More About Us

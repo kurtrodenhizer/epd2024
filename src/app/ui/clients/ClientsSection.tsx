@@ -32,7 +32,7 @@ const ClientsSection = () => {
 
   return (
     <>
-      <section className="h-[20vh] bg-white py-2 dark:bg-gray-900">
+      <section className="h-[20vh] bg-white py-2 dark:bg-gray-700">
         <div className="flex h-full flex-col items-center justify-center overflow-hidden pt-1">
           <h1 className="lg:text-md text-center text-sm font-bold uppercase tracking-wide text-gray-800">
             Our Trusted clients
