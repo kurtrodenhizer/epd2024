@@ -41,7 +41,9 @@ const AboutPage1 = () => {
                     </p>
                     <Link
                       href="/contact"
-                      className="mt-2 inline-flex w-full w-auto"
+                      // className="mt-2 inline-flex flex w-full w-auto"
+
+                      className="mt-2  w-auto w-full"
                     >
                       {/* <button
                 aria-label="Link to Contact Page"
