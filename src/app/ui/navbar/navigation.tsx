@@ -57,7 +57,7 @@ const Navigation = () => {
             </Link>
           </div>
           <div
-            className="space-between   hidden flex-grow justify-center    text-sm  md:flex space-x-6 "
+            className="space-between   hidden flex-grow justify-center    space-x-6  text-sm md:flex "
             // className=" mr-[43px]    hidden  w-[200px] justify-center space-x-6 text-center text-sm  md:flex lg:space-x-8  "
             // className="   flex justify-center  hidden  space-x-4 lg:space-x-8  mr-[28px]   text-sm  md:flex text-center  "
 
@@ -69,7 +69,7 @@ const Navigation = () => {
 
             <Link
               href="/about"
-              className={` relative  transition-all duration-200 ml-[24px]  ${
+              className={` relative  ml-[24px] transition-all duration-200  ${
                 pathname === "/about"
                   ? "text-teal   after:absolute after:bottom-[-3px] after:left-0 after:h-[2px] after:w-full after:bg-teal after:transition-all after:duration-200"
                   : styles.linkWithBar
@@ -124,8 +124,6 @@ const Navigation = () => {
           </Link> */}
           </div>
 
-          
-
           <Link href="/contact" aria-label="Contact Page" className="w-[200px]">
             <button
               onClick={(e) => e.currentTarget.blur()}
@@ -142,7 +140,6 @@ const Navigation = () => {
               Contact
             </button>
           </Link>
-    
 
           <div className="flex items-center space-x-4 md:hidden">
             <div className="-mr-2 flex md:hidden">

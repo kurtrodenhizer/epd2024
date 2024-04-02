@@ -20,6 +20,7 @@ const ServicesPage = () => {
         "Runs when offline",
       ],
       image: false,
+      imageSrc: "",
     },
     {
       service: "reportGeneration",
@@ -139,7 +140,7 @@ const ServicesPage = () => {
               // style={{ aspectRatio: "16/9" }}
             >
               <iframe
-                className=" h-full w-full z-20 rounded-lg"
+                className=" z-20 h-full w-full rounded-lg"
                 style={{ aspectRatio: "16/9" }}
                 src="https://www.youtube.com/embed/GQllIAJ3aRw?si=5AQL-2TlmGTlvkC4"
                 width="100%"
