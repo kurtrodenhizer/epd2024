@@ -92,6 +92,7 @@ const ServicesPage = () => {
   const servicesJsx = servicesData.map((service, index) => (
     <>
       <div className="mx-auto grid max-w-2xl grid-cols-1 place-content-center  items-center  gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 ">
+        {/* <div className="mx-auto grid max-w-2xl grid-cols-1    gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 "> */}
         <div
           className={`
         ${index % 2 === 0 && `lg:order-2`}
@@ -131,9 +132,15 @@ const ServicesPage = () => {
                   "
             />
           ) : (
-            <div className="relative z-10 aspect-video">
+            <div
+              // className="relative z-10 aspect-video"
+              className="relative z-10 "
+              // className="z-10"
+              // style={{ aspectRatio: "16/9" }}
+            >
               <iframe
-                className=" h-full w-full rounded-lg"
+                className=" h-full w-full z-20 rounded-lg"
+                style={{ aspectRatio: "16/9" }}
                 src="https://www.youtube.com/embed/GQllIAJ3aRw?si=5AQL-2TlmGTlvkC4"
                 width="100%"
                 title="YouTube video player"
@@ -174,10 +181,43 @@ lg:hidden
     </>
   ));
 
+  const servicesJsx2 = servicesData.map((service, index) => (
+    <div key={service.service} className="rounded-lg bg-white p-6 shadow-md">
+      <h2 className="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-3xl">
+        {service.title}
+      </h2>
+      <p className="text-gray-600">{service.paragraph}</p>
+      <ul className="mt-4 list-disc text-gray-600">
+        {service.features.map((bullet, index) => (
+          <li key={index}>{bullet}</li>
+        ))}
+      </ul>
+      {service.image ? (
+        <Image
+          alt={`${service.title} image`}
+          src={service.imageSrc}
+          width={600}
+          height={400}
+          className="mt-4 rounded-lg object-cover"
+        />
+      ) : (
+        <div className="aspect-w-16 aspect-h-9 mt-4 overflow-hidden rounded-lg">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/GQllIAJ3aRw?si=5AQL-2TlmGTlvkC4"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+      )}
+    </div>
+  ));
+
   return (
     <>
       <section className="mx-auto flex flex-col space-y-16 px-4 pb-32 pt-5 md:space-y-24 lg:max-w-7xl lg:space-y-32 lg:pt-10">
         {servicesJsx}
+        {/* {servicesJsx2} */}
       </section>
     </>
   );

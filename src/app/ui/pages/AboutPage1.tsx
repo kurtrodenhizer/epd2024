@@ -41,7 +41,7 @@ const AboutPage1 = () => {
                     </p>
                     <Link
                       href="/contact"
-                      className="mt-2 inline-flex w-full sm:w-auto"
+                      className="mt-2 inline-flex w-full w-auto"
                     >
                       {/* <button
                 aria-label="Link to Contact Page"
@@ -100,7 +100,7 @@ const AboutPage1 = () => {
 
                 <span
                   className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
-                  bg-blue-100 drop-shadow-2xl
+                  bg-blue-100 
                   "
                   aria-hidden="true"
                 ></span>
@@ -122,7 +122,7 @@ const AboutPage1 = () => {
 
                 <span
                   className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
-                  bg-blue-100 drop-shadow-2xl
+                  bg-blue-100 
                   "
                   aria-hidden="true"
                 ></span>
@@ -145,7 +145,7 @@ const AboutPage1 = () => {
 
                 <span
                   className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
-                  bg-blue-100 drop-shadow-2xl
+                  bg-blue-100 
                   "
                   aria-hidden="true"
                 ></span>
@@ -165,7 +165,7 @@ const AboutPage1 = () => {
                 />
                 <span
                   className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
-                  bg-blue-100 drop-shadow-2xl
+                  bg-blue-100 
                   "
                   aria-hidden="true"
                 ></span>
@@ -185,7 +185,7 @@ const AboutPage1 = () => {
 
                 <span
                   className="absolute top-0 z-0 z-0 block h-full w-full overflow-x-hidden rounded-full
-                  bg-blue-100 drop-shadow-2xl
+                  bg-blue-100 
                   "
                   aria-hidden="true"
                 ></span>

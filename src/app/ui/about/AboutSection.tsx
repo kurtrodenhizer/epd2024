@@ -13,7 +13,8 @@ const AboutSection = () => {
               alt="person working at desk"
               fill
               quality={100}
-              className=" rounded-lg object-cover shadow-lg "
+              className=" object-c over 
+              rounded-lg shadow-lg "
               style={{
                 filter: "sepia(100%) hue-rotate(180deg) saturate(200%)",
               }}

@@ -17,18 +17,20 @@ const Hero = () => {
           style={{
             zIndex: "-100",
           }}
-          className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] lg:object-right xl:blur-none "
+          // className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] lg:object-right xl:blur-none "
+
+          className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] xl:object-right xl:blur-none "
         />
 
         <div className="text-center text-white xl:text-left ">
-          <section className="mx-auto mb-20 lg:px-5 lg:pl-16 xl:max-w-screen-2xl">
+          <section className="mx-auto mb-20 lg:px-5 xl:max-w-screen-2xl xl:pl-16">
             <h1
-              className={`mb-5 text-4xl font-bold md:text-6xl  2xl:text-7xl  `}
+              className={`mb-5  text-3xl  font-bold sm:text-6xl  2xl:text-7xl  `}
             >
               Effective Solutions <br /> Measurable Results
             </h1>
 
-            <p className="mx-auto mb-3 max-w-xl text-2xl font-light xl:mx-0">
+            <p className="mx-auto mb-3 px-4  text-xl font-light sm:max-w-xl sm:text-2xl md:px-0  xl:mx-0">
               Specializing in Data Management, eLearning, Report Services, and
               File Management
             </p>
