@@ -91,8 +91,11 @@ const ServicesPage = () => {
   ];
 
   const servicesJsx = servicesData.map((service, index) => (
-    <>
-      <div className="mx-auto grid max-w-2xl grid-cols-1 place-content-center  items-center  gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 ">
+    <React.Fragment key={index}>
+      <div
+        className="mx-auto grid max-w-2xl grid-cols-1 place-content-center  items-center  gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 "
+        key={index}
+      >
         {/* <div className="mx-auto grid max-w-2xl grid-cols-1    gap-x-10  gap-y-10 md:max-w-3xl lg:max-w-none lg:grid-cols-2 lg:gap-x-24 lg:gap-y-32 "> */}
         <div
           className={`
@@ -179,7 +182,7 @@ lg:hidden
 "
         ></div>
       )}
-    </>
+    </React.Fragment>
   ));
 
   const servicesJsx2 = servicesData.map((service, index) => (

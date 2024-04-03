@@ -20,7 +20,7 @@ const ContactPage: FC = () => {
     sendEmail(data);
   }
   return (
-    <section className="z-10 h-full min-h-[maxContent]  w-full bg-gray-100 md:py-24    ">
+    <section className="z-10 h-full min-h-[maxContent]  w-full bg-gray-100   md:py-20 ">
       <div className="mx-auto grid max-w-6xl grid-cols-1 px-6 md:grid-cols-2 md:divide-x lg:px-8 ">
         <div className="py-6 md:px-6 md:py-0">
           <h1 className="text-4xl font-bold">Get in touch</h1>

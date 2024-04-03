@@ -19,7 +19,7 @@ const Hero = () => {
           }}
           // className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] lg:object-right xl:blur-none "
 
-          className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] xl:object-right xl:blur-none "
+          className="relative border-hidden object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] xl:object-right xl:blur-none "
         />
 
         <div className="text-center text-white xl:text-left ">

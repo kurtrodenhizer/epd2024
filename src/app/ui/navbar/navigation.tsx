@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
@@ -19,6 +19,8 @@ const Navigation = () => {
 
   const scrollPosition = useScrollPosition();
   const pathname = usePathname();
+
+  const divRef = useRef();
 
   return (
     <>
@@ -198,9 +200,9 @@ const Navigation = () => {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
+          {/* {(divRef) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+              <div ref={divRef} className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                 <Link
                   href="/about"
                   className="block rounded-md px-3 py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
@@ -242,7 +244,51 @@ const Navigation = () => {
                 </Link>
               </div>
             </div>
-          )}
+          )} */}
+
+          <div className="md:hidden" id="mobile-menu">
+            <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+              <Link
+                href="/about"
+                className="block rounded-md px-3 py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                About
+              </Link>
+
+              <Link
+                href="/services"
+                className="block rounded-md px-3 py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                Services
+              </Link>
+
+              <Link
+                href="/references"
+                className="block rounded-md px-3  py-2 text-center font-medium hover:bg-gray-700 hover:text-white focus:text-teal"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                References
+              </Link>
+
+              <Link
+                href="/contact"
+                className="mx-auto block flex"
+                onClick={() => setIsOpen(!isOpen)}
+                aria-label="Contact Page"
+              >
+                <button
+                  type="button"
+                  className=" text-md mx-auto rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring "
+                  // className=" text-md   hidden flex-grow justify-center rounded-full bg-blue-600 px-6 py-1.5 font-medium text-white hover:bg-blue-500 focus:border-blue-500 focus:font-semibold  focus:font-semibold  focus:ring-blue-300  focus:ring-opacity-80 md:flex "
+                  // aria-label="Contact Page"
+                >
+                  Contact
+                </button>
+              </Link>
+            </div>
+          </div>
         </Transition>
       </nav>
     </>
