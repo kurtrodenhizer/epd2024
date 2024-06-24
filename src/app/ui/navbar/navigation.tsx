@@ -31,7 +31,8 @@ const Navigation = () => {
             pathname === "/services" ||
             pathname == "/references" ||
             pathname == "/contact" ||
-            pathname == "/privacy"
+            pathname == "/privacy" ||
+            pathname == "/faris"
             ? "bg-white shadow "
             : "text-white  shadow-none",
 
@@ -48,7 +49,8 @@ const Navigation = () => {
                   pathname === "/services" ||
                   pathname == "/references" ||
                   pathname == "/contact" ||
-                  pathname == "/privacy"
+                  pathname == "/privacy" ||
+                  pathname == "/faris"
                     ? "/bluelogocs3.png"
                     : "/whitelogocs3.png"
                 }
