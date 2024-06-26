@@ -17,8 +17,8 @@ const Farishero = () => {
                 />
                 <h1 className="text-4xl font-semibold text-gray-800 xl:text-5xl dark:text-white">
                   {/* Best place to choose <br /> your{" "} */}
-                  The centralized solution to manage all your{" "}
-                  <span className="text-blue-500 "> digital files</span>
+                  The centralized hub for seamless
+                  <span className="text-blue-500 "> file asset management</span>
                 </h1>
                 {/* <p className="mt-3 text-gray-600 dark:text-gray-400">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -30,10 +30,12 @@ const Farishero = () => {
                 </button>
               </div> */}
                 <p className="mt-4 text-xl text-gray-600 dark:text-gray-400">
-                  File Asset Resource Intelligence System operates at the heart
+                  {/* File Asset Resource Intelligence System operates at the heart
                   of your content ecosystem. A single source of truth for all
                   your digital assets, FARIS ensures maximum value from your
-                  digital assets and 100% brand consistency.
+                  digital assets and 100% brand consistency. */}
+
+                  Experience the power of FARIS, the File Asset Resource Intelligence System that integrates seamlessly into your content ecosystem. FARIS guarantees optimal asset utilization, consistent brand integrity, and streamlined workflows for enhanced productivity and creativity.
                 </p>
 
                 <div className="text-left">

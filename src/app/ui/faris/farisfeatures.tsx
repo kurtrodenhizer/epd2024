@@ -35,7 +35,6 @@ const Farisfeatures = () => {
         "Facilitate the secure sharing of brand-approved content both internally and externally. Use secure links or restricted portals to control access to your digital assets.",
       image: true,
       imageSrc: "/faris/new/sharewithcustomers.png",
-      // imageSrc: "/services/filemanagement2.jpg",
       imgAltTag: "Digital File structure, organization and management visual",
     },
     {
@@ -50,7 +49,7 @@ const Farisfeatures = () => {
         "File Protection",
       ],
       image: true,
-      imageSrc: "/services/eLearning.jpg",
+      imageSrc: "/faris/new/farislogin.png",
       imgAltTag: "Example of eLearning product simulation",
     },
   ];
@@ -152,7 +151,8 @@ const Farisfeatures = () => {
           {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam
           voluptatibus Make your assets work for you */}
 
-          Overhaul your file management strategy with FARIS
+          {/* Overhaul your file management strategy with FARIS */}
+          Harness the full potential of FARIS to enhance efficiency, consistency, and security in your file management system.
         </p>
       </div>
 
