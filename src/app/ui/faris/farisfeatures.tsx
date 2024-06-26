@@ -19,7 +19,6 @@ const Farisfeatures = () => {
       image: true,
       // imageSrc: "/services/report-generation2.jpg",
       imageSrc: "/faris/new/customslide2.png",
-
       imgAltTag: "Digital Report displayed on tablet device",
     },
     {
@@ -143,13 +142,17 @@ const Farisfeatures = () => {
       </section> */}
       <div className="container mx-auto px-6 pb-10 pt-14 text-center">
         <h1 className="capitalizera text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
+
+          
           Make your assets work for {/* explore our <br /> awesome{" "} */}
           <span className="underline decoration-blue-500">You</span>
           {/* <span className="underline decoration-blue-500">Components</span> */}
         </h1>
         <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam
-          voluptatibus Make your assets work for you
+          {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam
+          voluptatibus Make your assets work for you */}
+
+          Overhaul your file management strategy with FARIS
         </p>
       </div>
 
