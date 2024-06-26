@@ -108,7 +108,8 @@ const Farishero = () => {
             <div className="mt-6 flex w-full items-center justify-end lg:mt-0 lg:w-[800px] ">
               <img
                 className=""
-                src="/faris/desktop-home-frontpage.png"
+                // src="/faris/desktop-home-frontpage.png"
+                src="/faris/new/desktop-home-front-new2.png"
                 alt="Catalogue-pana.svg"
                 // width={"1500px"}
               />
