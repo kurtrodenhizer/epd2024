@@ -19,7 +19,8 @@ const Farisfeatures = () => {
       image: true,
       // imageSrc: "/services/report-generation2.jpg",
       // imageSrc: "/faris/new/customslide2.png",
-      imageSrc: "/faris/6.28/brandguidelines.svg",
+      // imageSrc: "/faris/6.28/brandguidelines.svg",
+      imageSrc: "/faris/6.28/brandtemplate.svg",
 
       imgAltTag: "Digital Report displayed on tablet device",
     },
@@ -55,8 +56,8 @@ const Farisfeatures = () => {
       image: true,
       // imageSrc: "/faris/new/farislogin.png",
       // imageSrc: "/faris/6.28/securelogin.png",
-      imageSrc: "/faris/6.28/2 Background Removed.png",
-
+      // imageSrc: "/faris/6.28/2 Background Removed.png",
+      imageSrc: "/faris/6.28/securelogin2.png",
 
       imgAltTag: "Example of eLearning product simulation",
     },
