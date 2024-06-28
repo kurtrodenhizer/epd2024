@@ -111,7 +111,7 @@ const Farishero = () => {
               <img
                 className=""
                 // src="/faris/desktop-home-frontpage.png"
-                src="/faris/new/desktop-home-front-new2.png"
+                src="/faris/6.28/desktop-home-frontpage1.png"
                 alt="Catalogue-pana.svg"
                 // width={"1500px"}
               />

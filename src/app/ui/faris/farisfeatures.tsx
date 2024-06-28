@@ -18,7 +18,9 @@ const Farisfeatures = () => {
 
       image: true,
       // imageSrc: "/services/report-generation2.jpg",
-      imageSrc: "/faris/new/customslide2.png",
+      // imageSrc: "/faris/new/customslide2.png",
+      imageSrc: "/faris/6.28/brandguidelines.svg",
+
       imgAltTag: "Digital Report displayed on tablet device",
     },
     {
@@ -34,7 +36,9 @@ const Farisfeatures = () => {
       paragraph:
         "Facilitate the secure sharing of brand-approved content both internally and externally. Use secure links or restricted portals to control access to your digital assets.",
       image: true,
-      imageSrc: "/faris/new/sharewithcustomers.png",
+      // imageSrc: "/faris/new/sharewithcustomers.png",
+      imageSrc: "/faris/6.28/sharing.png",
+
       imgAltTag: "Digital File structure, organization and management visual",
     },
     {
@@ -49,7 +53,11 @@ const Farisfeatures = () => {
         "File Protection",
       ],
       image: true,
-      imageSrc: "/faris/new/farislogin.png",
+      // imageSrc: "/faris/new/farislogin.png",
+      // imageSrc: "/faris/6.28/securelogin.png",
+      imageSrc: "/faris/6.28/2 Background Removed.png",
+
+
       imgAltTag: "Example of eLearning product simulation",
     },
   ];
