@@ -8,7 +8,10 @@ const Farisfeatures = () => {
       paragraph:
         "	Efficiently manage your digital assets with advanced sorting, filtering, and search capabilities. Customize the interface to match your brand, saving time and ensuring you can quickly locate any file you need.",
       image: true,
-      imageSrc: "/faris/new/home3.png",
+      // imageSrc: "/faris/new/home3.png",
+      // imageSrc: "/faris/new/home3.png",
+      imageSrc: "/faris/6.28/filtering4.png",
+
       imgAltTag: "Digital Report displayed on tablet device",
     },
     {
@@ -29,7 +32,9 @@ const Farisfeatures = () => {
       paragraph:
         "Assign user roles and permissions to facilitate secure internal and external sharing. Allow users to access only the files they need, protecting sensitive information.",
       image: true,
-      imageSrc: "/faris/new/userpermission.png",
+      // imageSrc: "/faris/new/userpermission.png",
+      imageSrc: "/faris/6.28/userpermission2.svg",
+
       imgAltTag: "Screenshots of Data Management examples",
     },
     {
@@ -57,7 +62,8 @@ const Farisfeatures = () => {
       // imageSrc: "/faris/new/farislogin.png",
       // imageSrc: "/faris/6.28/securelogin.png",
       // imageSrc: "/faris/6.28/2 Background Removed.png",
-      imageSrc: "/faris/6.28/securelogin2.png",
+      // imageSrc: "/faris/6.28/securelogin2.png",
+      imageSrc: "/faris/6.28/secure.png",
 
       imgAltTag: "Example of eLearning product simulation",
     },
