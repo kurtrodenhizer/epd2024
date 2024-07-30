@@ -14,6 +14,7 @@ const Hero = () => {
           // src="/hero/ePDBanner-og.jpg"
           src="/hero/ePDBanner-resized.jpg"
           fill
+          priority
           quality={100}
           style={{
             zIndex: "-100",
