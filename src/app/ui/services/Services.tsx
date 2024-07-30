@@ -99,18 +99,8 @@ const Services = () => {
             </div>
 
             <div className="block   flex  items-center justify-center p-8 transition hover:border-pink-500/10 hover:shadow-pink-500/10">
-              {/* 
-              <Link
-                href="/services"
-                className="inline-block rounded bg-teal px-12 py-3 text-sm font-medium text-white transition hover:bg-hoverteal focus:outline-none focus:ring focus:ring-yellow-400"
-              >
-                Learn More
-              </Link> */}
 
               <Link href="/services">
-                {/* <button className="text-md mb-2 me-2 mt-4 rounded-full  border border-teal bg-teal p-8 px-12 py-2.5 font-medium text-white hover:bg-hoverteal  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring ">
-                  Learn More
-                </button> */}
 
                 <button
                   className="text-md hover:bg-hoverteal2    mb-2   mt-4 rounded-full bg-teal p-8 px-12 py-2.5  py-2.5 font-semibold text-gray-900 

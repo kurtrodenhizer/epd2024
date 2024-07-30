@@ -64,20 +64,10 @@ img {
   max-height: 100%;
 }
 
-/* came with next.js  */
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: var(--color-royalblue); */
-  /* position: relative; */
+
 
   display: flex;
   flex-direction: column;
@@ -85,13 +75,7 @@ body {
   /* overflow: hidden; */
 }
 
-/* body::before,
-body::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  opacity: 0.8;
-} */
+
 
 /* body::before {
   background: var(--background-gradient);
@@ -147,7 +131,7 @@ header {
   /* background-color: var(--color-royalblue); */
   z-index: 1;
   overflow-y: visible;
-  background: url("../../public/ePDBanner_1.jpg");
+  /* background: url("../../public/ePDBanner_1.jpg"); */
   /* background: url("../../../../public/ePDBanner_1.jpg"); */
   background-size: cover;
   overflow: hidden;

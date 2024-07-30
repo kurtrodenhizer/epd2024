@@ -13,7 +13,7 @@ const AboutPage1 = () => {
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
                 <div className="flex lg:py-12">
                   <Image
-                    src="/statistics1-1.jpg"
+                    src="/about/statistics1-1.jpg"
                     alt="employee at work"
                     width={600}
                     height={600}
@@ -39,18 +39,7 @@ const AboutPage1 = () => {
                       satisfaction, eProcess Development is your trusted partner
                       for driving business growth and efficiency.
                     </p>
-                    <Link
-                      href="/contact"
-                      // className="mt-2 inline-flex flex w-full w-auto"
-
-                      className="mt-2  w-auto w-full"
-                    >
-                      {/* <button
-                aria-label="Link to Contact Page"
-                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-600 px-6 py-2 text-white duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-              >
-                Contact Us
-              </button> */}
+                    <Link href="/contact" className="mt-2  w-auto w-full">
                       <button
                         type="button"
                         className="rounded-full  border-2 border-neutral-50 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:font-semibold focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
@@ -78,7 +67,6 @@ const AboutPage1 = () => {
           </svg>
         </div>
 
-        {/* team photos */}
         <div className="relative w-full bg-white pb-14 pt-16 text-gray-700   ">
           <div>
             <h1 className="leading mb-4 text-center text-4xl font-bold sm:text-5xl">
@@ -94,7 +82,7 @@ const AboutPage1 = () => {
               <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Kurt Rodenhizer Founder of ePD Headshot"
-                  src="/Kurt2.png"
+                  src="/team/Kurt.png"
                   fill
                   quality={100}
                   className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
@@ -116,7 +104,7 @@ const AboutPage1 = () => {
               <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Rich Lovejoy Headshot"
-                  src="/team/rich2.png"
+                  src="/team/Rich.png"
                   fill
                   quality={100}
                   className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
@@ -139,7 +127,7 @@ const AboutPage1 = () => {
               <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Ian Delairre Headshot"
-                  src="/team/ian2.png"
+                  src="/team/Ian.png"
                   fill
                   quality={100}
                   className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "
@@ -160,7 +148,7 @@ const AboutPage1 = () => {
               <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Karl Miller Headshot"
-                  src="/team/karl2.png"
+                  src="/team/Karl.png"
                   fill
                   quality={100}
                   className="absolute z-10 mx-auto rounded-full object-cover brightness-150 contrast-125 drop-shadow-xl "
@@ -179,7 +167,7 @@ const AboutPage1 = () => {
               <div className="relative mx-auto mb-4 block h-[9rem] w-[9rem]">
                 <Image
                   alt="Carli Smith Headshot"
-                  src="/team/carli2.png"
+                  src="/team/Carli.png"
                   fill
                   quality={100}
                   className="absolute z-10 mx-auto rounded-full object-cover brightness-105 contrast-125 drop-shadow-xl "

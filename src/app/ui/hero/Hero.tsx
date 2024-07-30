@@ -11,14 +11,14 @@ const Hero = () => {
       >
         <Image
           alt="eProcess Development Hero Image - Employee at Computer"
-          src="/hero/ePDBanner-og.jpg"
+          // src="/hero/ePDBanner-og.jpg"
+          src="/hero/ePDBanner-resized.jpg"
           fill
+          priority
           quality={100}
           style={{
             zIndex: "-100",
           }}
-          // className="relative object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] lg:object-right xl:blur-none "
-
           className="relative border-hidden object-cover object-left blur-none saturate-150 md:m-[-5px] md:object-center  md:blur-[2px] xl:object-right xl:blur-none "
         />
 
