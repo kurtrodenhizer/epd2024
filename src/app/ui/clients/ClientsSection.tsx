@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const ClientsSection = () => {
   const logos = [
-    { company: "Abiomed", logo: "/logos/newlogos2/abiomed3.png" },
-    { company: "Drager", logo: "/logos/newlogos2/drager4.png" },
-    { company: "Smart Source", logo: "/logos/newlogos2/ss4.png" },
+    { company: "Abiomed", logo: "/logos/clientlogos/abiomed.png" },
+    { company: "Drager", logo: "/logos/clientlogos/drager.png" },
+    { company: "Smart Source", logo: "/logos/clientlogos/ss.png" },
     {
       company: "Families for Depression Awareness",
-      logo: "/logos/newlogos2/ffda3.png",
+      logo: "/logos/clientlogos/ffda.png",
     },
   ];
 

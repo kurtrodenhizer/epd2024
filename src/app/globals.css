@@ -131,7 +131,7 @@ header {
   /* background-color: var(--color-royalblue); */
   z-index: 1;
   overflow-y: visible;
-  background: url("../../public/ePDBanner_1.jpg");
+  /* background: url("../../public/ePDBanner_1.jpg"); */
   /* background: url("../../../../public/ePDBanner_1.jpg"); */
   background-size: cover;
   overflow: hidden;

@@ -9,15 +9,13 @@ const Footer = () => {
   return (
     <>
       <div 
-      // className="mt-auto border-t bg-white"
       className="border-t bg-white"
-      
       >
         <div className="mx-auto w-11/12 px-4 pt-10">
           <div className="mb-8 flex flex-col items-center justify-between space-y-7 text-gray-700 lg:flex-row lg:space-y-0">
             <Link href="/" aria-label="Go home" title="eProcess logo">
               <Image
-                src="/bluelogocs3.png"
+                src="/logos/epdLogos/bluelogocs3.png"
                 width={200}
                 height={100}
                 alt="ePD Logo"
