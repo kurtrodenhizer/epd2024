@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@types/nodemailer": "^6.4.14",
     "axios": "^1.7.7",
     "next": "^14.0.4",
@@ -23,6 +24,7 @@
     "sass": "^1.70.0"
   },
   "devDependencies": {
+    "@types/mailchimp__mailchimp_marketing": "^3.0.20",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
