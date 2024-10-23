@@ -3,7 +3,7 @@
 import React from "react";
 import { FC } from "react";
 import { useForm } from "react-hook-form";
-import { sendEmail } from "@/app/utils/send-email";
+import { mailChimp, sendEmail } from "@/app/utils/send-email";
 
 export type FormData = {
   name: string;
@@ -14,11 +14,32 @@ export type FormData = {
 const ContactPage: FC = () => {
   const { register, handleSubmit } = useForm<FormData>();
 
-  function onSubmit(data: FormData, e: any) {
-    e.target.reset(); // reset after form submit
+
+
+  const onSubmit = async (data: FormData, e: any) => {
+
+    e.target.reset(); 
 
     sendEmail(data);
-  }
+
+
+      // Wrap email in an object
+  const emailData = { email: data.email }; // Format the data as expected
+
+  // Send the email to Mailchimp
+  await mailChimp(emailData);
+}
+    
+
+   
+  
+
+
+
+ 
+
+
+
   return (
     <section className="z-10 h-full min-h-[maxContent]  w-full bg-gray-100   md:py-20 ">
       <div className="mx-auto grid max-w-6xl grid-cols-1 px-6 md:grid-cols-2 md:divide-x lg:px-8 ">
