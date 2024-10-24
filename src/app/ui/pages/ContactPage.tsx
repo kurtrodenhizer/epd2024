@@ -14,31 +14,18 @@ export type FormData = {
 const ContactPage: FC = () => {
   const { register, handleSubmit } = useForm<FormData>();
 
-
-
   const onSubmit = async (data: FormData, e: any) => {
-
-    e.target.reset(); 
+    e.target.reset();
 
     sendEmail(data);
+    console.log(data);
 
+    // Wrap email in an object
+    const emailData = { email: data.email }; // Format the data as expected
 
-      // Wrap email in an object
-  const emailData = { email: data.email }; // Format the data as expected
-
-  // Send the email to Mailchimp
-  await mailChimp(emailData);
-}
-    
-
-   
-  
-
-
-
- 
-
-
+    // Send the email to Mailchimp
+    await mailChimp(emailData);
+  };
 
   return (
     <section className="z-10 h-full min-h-[maxContent]  w-full bg-gray-100   md:py-20 ">
