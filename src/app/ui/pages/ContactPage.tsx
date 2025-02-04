@@ -224,6 +224,8 @@ const ContactPage: FC = () => {
           </button>
         </form>
       </div>
+
+      
     </section>
   );
 };
