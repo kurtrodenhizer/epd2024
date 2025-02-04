@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.18",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@types/nodemailer": "^6.4.14",
+    "aws-amplify": "^6.12.3",
     "axios": "^1.7.7",
     "next": "^14.0.4",
     "nodemailer": "^6.9.9",
@@ -24,17 +25,24 @@
     "sass": "^1.70.0"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.14.0",
+    "@aws-amplify/backend-cli": "^1.4.9",
     "@types/mailchimp__mailchimp_marketing": "^3.0.20",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "aws-cdk": "^2.177.0",
+    "aws-cdk-lib": "^2.177.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
     "eslint": "^8",
     "eslint-config-next": "^14.0.4",
     "postcss": "^8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwindcss": "^3.3.0",
-    "typescript": "5.3.3"
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
   }
 }
