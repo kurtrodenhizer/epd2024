@@ -33,13 +33,10 @@ export default function RootLayout({
           gtag('config', 'G-8GVXX7YDD2');
           `}
         </Script>
-        <Script id="mcjs">
-          {`
-            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/13e3af7234d6382b4047b4bbe/6c2bc79956f33e7c61a041566.js")
-          `}
-
-        </Script>
-       
+        <Script
+          async
+          src="https://chimpstatic.com/mcjs-connected/js/users/13e3af7234d6382b4047b4bbe/6c2bc79956f33e7c61a041566.js"
+        />
       </head>
       <body className={`${poppins.className} `}>
         <Navigation></Navigation>
