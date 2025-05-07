@@ -57,7 +57,7 @@ const References = () => {
                       </span>
                       <div className={`flex-grow pt-4`}>
                         <h6 className={`font-bold text-sm uppercase text-teal`}>
-                          Michael M. DeSoto
+                          Michelle M. DeSoto
                         </h6>
                         <p className="text-xs italic ">
                           Manager of Advertising & Promotional Compliance
