@@ -147,7 +147,7 @@ const ContactPage: FC = () => {
       <div className="mx-auto grid max-w-6xl grid-cols-1 px-6 md:grid-cols-2 md:divide-x lg:px-8 ">
         <div className="py-6 md:px-6 md:py-0">
           <h1 className="text-4xl font-bold">Get in touch</h1>
-          <p className="pb-4 pt-2">Fill in the form to start a conversation</p>
+{/*           <p className="pb-4 pt-2">Fill in the form to start a conversation</p> */}
           <div className="space-y-4">
             <p className="flex items-center">
               <svg
