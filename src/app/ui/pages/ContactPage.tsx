@@ -124,6 +124,9 @@ import React from "react";
 import { FC } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
+import Image from "next/image";
+import ClientsSection from "../clients/ClientsSection";
+import Link from "next/link";
 
 export type FormData = {
   name: string;
@@ -187,7 +190,7 @@ const ContactPage: FC = () => {
           </div>
         </div>
 
-        <form
+        {/* <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-6 py-6 md:px-6 md:py-0"
         >
@@ -222,14 +225,19 @@ const ContactPage: FC = () => {
           <button className=" text-md mb-2 me-2 mt-4 self-center rounded-full border  border-blue-400 bg-blue-600 px-10 px-8 py-2.5 py-3 font-medium text-white hover:bg-blue-500  focus:border-blue-500 focus:font-semibold focus:outline-none focus:ring ">
             Submit
           </button>
-        </form>
+        </form> */}
+        
+        <Image
+          alt="Carli Smith Headshot"
+          src="/hero/Depositphotos.jpg"
+          width={600}
+          height={400}
+          quality={100}
+          className="mt-4 rounded-lg object-cover"
+        />
       </div>
-
-
-     
     </section>
   );
 };
 
 export default ContactPage;
-
